@@ -19,12 +19,6 @@ void sort(int* array, int length)
     }
 }
 
-void printArray(int* array, int length)
-{
-    for (int i = 0; i < length; i++)
-        cerr << array[i];
-}
-
 int best(int* array, int length)
 {
     for (int i = 0; i < length; i++)
@@ -34,13 +28,6 @@ int best(int* array, int length)
     }
     return array[0];
 }
-
-
-
-/**
- * Auto-generated code below aims at helping you parse
- * the standard input according to the problem statement.
- **/
 
 int main()
 {
@@ -53,9 +40,6 @@ int main()
         cin >> tempratures[i];
 
     sort(tempratures, numberOfTempertures);
-
-    printArray(tempratures, numberOfTempertures);
-
 
     cout << best(tempratures, numberOfTempertures) << endl;
 
