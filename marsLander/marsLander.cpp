@@ -52,9 +52,9 @@ LandingZone getLandingZone(vector<Surface>& landCoords)
     
     for (int i = 0; i < landCoords.size() - 1; ++i)
     {
-        if (landCoords[i].y == landCoords[i + 1].y)
+        if (landCoords[i].y == landCoords[static_cast<double>(i) + 1].y)
         {
-            landingZone = { landCoords[i].x, landCoords[i + 1].x, landCoords[i + 1].x - landCoords[i].x, landCoords[i].y };
+            landingZone = { landCoords[i].x, landCoords[static_cast<double>(i) + 1].x, landCoords[static_cast<double>(i) + 1].x - landCoords[i].x, landCoords[i].y };
             return landingZone;
         }
             
