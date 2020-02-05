@@ -40,23 +40,29 @@ struct LandingZone
     int y;
 };
 
-struct Valid
-{
-    bool landingZone;
-    bool angle;
-    bool vSpeed;
-    bool hSpeed;
-};
-
 void printLandCoords(vector<Surface>& array)
 {
     for (int i = 0; i < array.size(); ++i)
         cerr << array[i].x << " " << array[i].y << '\n';
 }
 
-LandingZone getLandingZone()
-{
+LandingZone getLandingZone(vector<Surface>& landCoords)
+{        
+    LandingZone landingZone;
     
+    for (int i = 0; i < landCoords.size() - 1; ++i)
+    {
+        if (landCoords[i].y == landCoords[i + 1].y)
+        {
+            landingZone = { landCoords[i].x, landCoords[i + 1].x, landCoords[i + 1].x - landCoords[i].x, landCoords[i].y };
+            return landingZone;
+        }
+            
+    }
+}
+
+vector<Surface> getLandCoords()
+{
     int surfaceN; // the number of points used to draw the surface of Mars.
     cin >> surfaceN; cin.ignore();
 
@@ -71,19 +77,12 @@ LandingZone getLandingZone()
         landCoords.push_back(surface);
     }
 
-    printLandCoords(landCoords);
-    
-    LandingZone landingZone;
-    
-    for (int i = 0; i < landCoords.size() - 1; ++i)
-    {
-        if (landCoords[i].y == landCoords[i + 1].y)
-        {
-            landingZone = { landCoords[i].x, landCoords[i + 1].x, landCoords[i + 1].x - landCoords[i].x, landCoords[i].y };
-            return landingZone;
-        }
-            
-    }
+    return landCoords;
+}
+
+int getLandHeight(vector<Surface>& landCoords, int x)
+{
+
 }
 
 bool isValidLandingZone(MarsLander& marsLander, LandingZone& landingZone)
@@ -97,9 +96,10 @@ bool isValidLandingZone(MarsLander& marsLander, LandingZone& landingZone)
 int main()
 {
     
-    LandingZone landingZone{ getLandingZone() };
-    
+    vector<Surface> landCoords{ getLandCoords() };
+    LandingZone landingZone{ getLandingZone(landCoords) };
 
+    printLandCoords(landCoords);
     cerr << "from: " << landingZone.from << " to: " << landingZone.to << " y: " << landingZone.y << endl;
 
     int power{ 0 };
@@ -112,54 +112,11 @@ int main()
 
         cin >> marsLander.x >> marsLander.y >> marsLander.hSpeed >> marsLander.vSpeed >> marsLander.fuel >> marsLander.rotate >> marsLander.power; cin.ignore();
 
-        Valid land{ isValidLandingZone(marsLander, landingZone),  marsLander.rotate == 0, abs(marsLander.vSpeed) < vSpeedMax, abs(marsLander.hSpeed) < hSpeedMax };
-
-        cerr << "landingZone: " << land.landingZone << " angle: " << land.angle << " hSpeed: " << land.hSpeed << " vSpeed: " << land.vSpeed << endl;
+        
 
           
         
-        if (marsLander.x < landingZone.from && abs(marsLander.hSpeed) < allowedHSpeedMax) // marsLander is on the left at low speed
-        {
-            cerr << "marsLander is on the left" << endl;
-            rotate = goRight;
-        }
-        else if (marsLander.x > landingZone.to && abs(marsLander.hSpeed) < allowedHSpeedMax) // marsLander is on the right at low speed
-        {
-            cerr << "marsLander is on the right" << endl;
-            rotate = goLeft;
-        } 
-        else if (marsLander.x < landingZone.from || marsLander.x > landingZone.to)
-        {
-            rotate = 0;
-        }
-        else
-        {
-            if (abs(marsLander.hSpeed) <= 5)
-            {
-                rotate = 0;
-            }
-            else if (abs(marsLander.hSpeed) > hSpeedMax && marsLander.hSpeed > 0 && marsLander.hSpeed > -allowedHSpeedMax) // drifting right -> hSpeed > 20 && hSpeed > -30
-            {
-                cerr << "marsLander is drifting right" << endl;
-                rotate = goLeft;
-            }
-            else if (abs(marsLander.hSpeed) > hSpeedMax && marsLander.hSpeed < 0 && marsLander.hSpeed < allowedHSpeedMax) // drifting left -> hSpeed < -20 && hSpeed < 30
-            {
-                cerr << "marsLander is drifting left" << endl;
-                rotate = goRight;
-            }
-        }
-        
-        if (land.vSpeed && land.landingZone)
-        {
-            if (marsLander.power > 0)
-                --power;
-        }
-        else if (land.landingZone)
-        {
-            if (marsLander.power < 4)
-                ++power;
-        }
+      
 
                 
         // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
