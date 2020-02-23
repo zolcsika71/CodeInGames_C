@@ -400,10 +400,9 @@ public:
 
 struct Solution
 {
-    int id;
     float score = -1;
-    int thrusts[DEPTH * 2];
-    float angles[DEPTH * 2];
+    int thrusts[DEPTH * 2]{};
+    float angles[DEPTH * 2]{};
 };
 
 class Genetic {
