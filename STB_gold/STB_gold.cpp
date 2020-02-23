@@ -5,14 +5,10 @@
 
 #define _USE_MATH_DEFINES
 
-
 #include "stdio.h"
 #include "math.h"
 #include <iostream>
 #include <algorithm>
-#include <functional>
-#include <list>
-#include <map>
 #include <memory>
 #include <chrono>
 #include <vector>
@@ -20,12 +16,8 @@
 using namespace std;
 using namespace std::chrono;
 
-
-
 high_resolution_clock::time_point now = high_resolution_clock::now();
 #define TIME duration_cast<duration<double>>(high_resolution_clock::now() - now).count()
-
-
 
 class Point;
 class Unit;
@@ -34,7 +26,6 @@ class Collision;
 class Checkpoint;
 class Solution;
 class Bot;
-class Genetic;
 void load();
 void play();
 void print_move(int, float, Pod*);
@@ -139,7 +130,7 @@ public:
     virtual void bounce(Unit* u) {};
 
     inline float collision_time(Unit* u) {
-        if (vx == u->vx && vy == u->vy) 
+        if (vx == u->vx && vy == u->vy)
             return -1;
 
         float sr2 = u->type == CP ? 357604 : 640000;
@@ -225,16 +216,16 @@ public:
     void apply(int thrust, float angle) {
         angle = max((float)-18., min((float)18., angle));
         this->angle += angle;
-        if (this->angle >= 360.) 
+        if (this->angle >= 360.)
             this->angle = this->angle - 360.;
-        else if (this->angle < 0.0) 
+        else if (this->angle < 0.0)
             this->angle += 360.;
 
-       if (thrust == -1) 
+        if (thrust == -1)
             this->shield = 4;
-        else 
+        else
             boost(thrust);
-        
+
     }
 
     void rotate(Point* p) {
@@ -242,11 +233,11 @@ public:
         a = max((float)-18., min((float)18., a));
 
         angle += a;
-        if (angle >= 360.) 
+        if (angle >= 360.)
             angle = angle - 360.;
-        else if (angle < 0.0) 
+        else if (angle < 0.0)
             angle += 360.;
-        
+
     }
 
     void boost(int thrust) {
@@ -343,7 +334,7 @@ public:
 
         if (dy < 0)
             a = 360 - a;
-       
+
         return a;
     }
 
@@ -353,9 +344,9 @@ public:
             timeout = partner->timeout = 100;
             checked++;
         }
-        else 
+        else
             timeout--;
-        
+
 
         this->x = x;
         this->y = y;
@@ -398,119 +389,6 @@ public:
     }
 };
 
-struct Solution
-{
-    int id;
-    float score = -1;
-    int thrusts[DEPTH * 2];
-    float angles[DEPTH * 2];
-};
-
-class Genetic {
-public:
-    typedef map<shared_ptr<Solution>, double> SolutionScoreMap;
-public:
-    Solution sol{};
-    vector<shared_ptr<Solution>> candidates{};
-    int evaluations{ 0 };
-
-    Solution best()
-    {
-        return *candidates[0];
-    }
-
-private:
-
-    void randomize(int idx, bool full = false) {
-        int r = rnd(2);
-        if (full || r == 0)
-            sol.angles[idx] = max(-18, min(18, rnd(-40, 40)));
-
-        if (full || r == 1) {
-            if (rnd(100) >= SHIELD_PROB)
-                sol.thrusts[idx] = max(0, min(MAX_THRUST, rnd((int)-0.5 * MAX_THRUST, 2 * MAX_THRUST)));
-           else
-                sol.thrusts[idx] = -1;
-        }
-        sol.score = -1;
-    }
-
-    void randomize() {
-        for (int i = 0; i < 2 * DEPTH; ++i)
-            randomize(i, true);
-    }
-
-    void addRandomCandidates(int initialPoolSize)
-    {
-        for (int i{ 0 }; i < initialPoolSize; ++i)
-        {
-            randomize();
-            candidates.push_back(make_shared<Solution>(sol));
-        }
-            
-        
-    }
-
-    Solution merger(Solution first, Solution second)
-    {
-        Solution merged;
-        
-        for (int i{ 0 }; i < DEPTH * 2; ++i)
-        {
-            if (i % 2 == 0)
-            {
-                merged.thrusts[i] = first.thrusts[i];
-                merged.angles[i] = second.angles[i];
-
-            }
-            else
-            {
-                merged.thrusts[i] = second.thrusts[i];
-                merged.angles[i] = first.angles[i];
-            }
-                
-        }
-
-        return merged;
-    }
-
-    void merge(int mergedNumber)
-    {
-        for (int i{ 0 }; i < mergedNumber; ++i) {
-            int firstIndex = (2 * i) % candidates.size();
-            int secondIndex = (2 * i + 1) % candidates.size();
-
-            candidates.push_back(make_shared<Solution>(merger(*candidates[firstIndex], *candidates[secondIndex])));
-        }
-    }
-
-    void initialize(int initialPoolSize)
-    {
-        candidates.clear();
-        addRandomCandidates(initialPoolSize);
-
-    }
-
-    void shuffle()
-    {
-        std::shuffle(begin(candidates), end(candidates), rnd(0, 1));
-    }
-
-    Solution runOneIteration(int randomNumber, int mergedNumber, int mutatedNumber)
-    {
-        addRandomCandidates(randomNumber);
-        shuffle();
-        merge(mergedNumber);
-        shuffle();
-
-
-
-
-    }
-
-
-};
-
 class Solution {
 public:
     float score = -1;
@@ -518,8 +396,7 @@ public:
     float angles[DEPTH * 2];
 
     Solution(bool with_rnd = false) {
-        if (with_rnd)
-            randomize();
+        if (with_rnd) randomize();
     }
 
     void shift() {
@@ -708,8 +585,7 @@ public:
         score += 0.9 * evaluate();
         load();
 
-        if (r > 0)
-            sols_ct++;
+        if (r > 0) sols_ct++;
 
         return score;
     }
@@ -731,7 +607,7 @@ public:
 
 void load() {
     for (int i = 0; i < 4; i++) pods[i]->load();
-        turn = 0;
+    turn = 0;
 }
 
 void play() {
@@ -762,13 +638,13 @@ void play() {
         if (first_col.t == -1) {
             for (int i = 0; i < 4; i++)
                 pods[i]->move(1.0 - t);
-            
+
             t = 1.0;
         }
         else {
-            for (int i = 0; i < 4; i++) 
+            for (int i = 0; i < 4; i++)
                 pods[i]->move(first_col.t);
-            
+
 
             first_col.a->bounce(first_col.b);
             t += first_col.t;
@@ -777,7 +653,7 @@ void play() {
 
     for (int i = 0; i < 4; i++)
         pods[i]->end();
-    
+
 }
 
 void print_move(int thrust, float angle, Pod* pod) {
@@ -794,7 +670,7 @@ void print_move(int thrust, float angle, Pod* pod) {
     float px = pod->x + cos(a) * 1000.0;
     float py = pod->y + sin(a) * 1000.0;
 
-    char copyright[] = "Luke, vazze... ";
+    char copyright[] = "Luke, vazze... "; // do not remove
     if (thrust == -1) {
         printf("%d %d SHIELD %s\n", (int)round(px), (int)round(py), copyright);
         pod->shield = 4;
