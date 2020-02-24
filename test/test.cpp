@@ -289,12 +289,26 @@ public:
 int main()
 {
 	
-	Combination toBeFound(2, 3, 4, 5);
-	GeneticAlgorithm<Combination> algo(
-		[toBeFound](const Combination& c) {return c.evaluate(toBeFound); },
-		[]() {return Combination::newInstance(); },
-		[](const Combination& first, const Combination& second) {return first.merge(second); },
-		[](const Combination& c) {return c.mutate(); });
+	Combination toBeFound(5, 3, 4, 5);
+	GeneticAlgorithm<Combination>
+		algo([toBeFound](const Combination& c)
+			{
+				return c.evaluate(toBeFound);
+			},
+		[]()
+			{
+				return Combination::newInstance();
+			},
+
+		[]
+			(const Combination& first, const Combination& second)
+			{
+				return first.merge(second);
+			},
+		[](const Combination& c)
+			{
+				return c.mutate();
+			});
 
 
 	algo.initialize(9);
