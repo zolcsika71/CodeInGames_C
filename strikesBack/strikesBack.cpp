@@ -578,14 +578,7 @@ private:
     std::default_random_engine m_random;
 };
 
-class Combination {
-public:
-    SolutionStruct solution;
-    Combination(SolutionStruct sol) : solution(sol)
-    {}
 
-
-};
 
 class Solution {
 public:
@@ -609,21 +602,25 @@ public:
         score = -1;
     }
 
-    void mutate() {
+    void mutate1() {
         randomize(rnd(2 * DEPTH));
     }
 
-    void mutate(Solution* child) {
-        copy(begin(angles), end(angles), begin(child->angles));
-        copy(begin(thrusts), end(thrusts), begin(child->thrusts));
+    Solution mutate() const
+    {
+        Solution child;
+        
+        copy(begin(angles), end(angles), begin(child.angles));
+        copy(begin(thrusts), end(thrusts), begin(child.thrusts));
 
-        child->mutate();
-        child->score = -1;
+        child.mutate1();
+        return child;
     }
 
     void randomize(int idx, bool full = false) {
         int r = rnd(2);
-        if (full || r == 0) angles[idx] = max(-18, min(18, rnd(-40, 40)));
+        if (full || r == 0)
+            angles[idx] = max(-18, min(18, rnd(-40, 40)));
 
         if (full || r == 1) {
             if (rnd(100) >= SHIELD_PROB) {
@@ -637,7 +634,44 @@ public:
     }
 
     void randomize() {
-        for (int i = 0; i < 2 * DEPTH; i++) randomize(i, true);
+        for (int i = 0; i < 2 * DEPTH; i++)
+            randomize(i, true);
+    }
+
+    Solution merge(const Solution& other) const
+    {
+        Solution merged;
+
+        for (int i{ 0 }; i < DEPTH * 2; ++i)
+        {
+            if (i % 2 == 0)
+            {
+                merged.thrusts[i] = thrusts[i];
+                merged.angles[i] = other.angles[i];
+
+            }
+            else
+            {
+                merged.thrusts[i] = other.thrusts[i];
+                merged.angles[i] = angles[i];
+            }
+
+        }
+
+        return merged;
+    }
+
+    
+
+    static Solution newInstance()
+    {
+        return Solution(true);
+
+    }
+
+    double evaluate() const
+    {
+        return 100;
     }
 };
 
@@ -925,11 +959,48 @@ int main() {
 
         float time_limit = r ? 0.142 : 0.98;
         time_limit *= 0.3;
+
         // use this to test reflex bot behavior
         // me_reflex.move_as_main();
 
+
+
+        Solution toBeFound(true);
+        GeneticAlgorithm<Solution>
+            oppAlgo(
+                []
+                (Solution& sol)
+                {
+                    return sol.evaluate();
+                },
+                []()
+                {
+                    return Solution::newInstance();
+                },
+                [](const Solution& first, const Solution& second)
+                {
+                    return first.merge(second);
+                },
+                [](const Solution& sol)
+                {
+                    return sol.mutate();
+                });
+
+
+
+
+
+
+
+
+
+
+
+/*
         opp.solve(time_limit * 0.15);
         me.solve(time_limit, r > 0);
+*/
+        
 
         if (r > 0) cerr << "Avg iters: " << sols_ct / r << "; Avg sims: " << sols_ct * DEPTH / r << endl;
 
