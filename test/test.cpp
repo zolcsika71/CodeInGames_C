@@ -291,7 +291,8 @@ int main()
 	
 	Combination toBeFound(5, 3, 4, 5);
 	GeneticAlgorithm<Combination>
-		algo([toBeFound](const Combination& c)
+		algo(
+		[toBeFound](const Combination& c)
 			{
 				return c.evaluate(toBeFound);
 			},
@@ -300,8 +301,7 @@ int main()
 				return Combination::newInstance();
 			},
 
-		[]
-			(const Combination& first, const Combination& second)
+		[](const Combination& first, const Combination& second)
 			{
 				return first.merge(second);
 			},
