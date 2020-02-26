@@ -1,8 +1,3 @@
-#pragma GCC optimize("Ofast")
-#pragma GCC optimize("inline")
-#pragma GCC optimize("omit-frame-pointer")
-#pragma GCC optimize("unroll-loops")
-
 #define _USE_MATH_DEFINES
 
 #include "stdio.h"
@@ -61,6 +56,7 @@ inline int rnd(int a, int b) {
     return a + rnd(b - a + 1);
 }
 
+
 class Collision {
 public:
     Unit* a;
@@ -80,7 +76,7 @@ class Point {
 public:
     float x, y;
 
-    Point() {};
+    //Point() {};
 
     Point(float x, float y) {
         this->x = x;
