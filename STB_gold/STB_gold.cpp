@@ -1,3 +1,8 @@
+#pragma GCC optimize("Ofast")
+#pragma GCC optimize("inline")
+#pragma GCC optimize("omit-frame-pointer")
+#pragma GCC optimize("unroll-loops")
+
 #define _USE_MATH_DEFINES
 
 #include "stdio.h"
@@ -7,6 +12,8 @@
 #include <memory>
 #include <chrono>
 #include <vector>
+
+
 
 using namespace std;
 using namespace std::chrono;
@@ -56,7 +63,6 @@ inline int rnd(int a, int b) {
     return a + rnd(b - a + 1);
 }
 
-
 class Collision {
 public:
     Unit* a;
@@ -76,7 +82,7 @@ class Point {
 public:
     float x, y;
 
-    //Point() {};
+    Point() {};
 
     Point(float x, float y) {
         this->x = x;
@@ -126,8 +132,9 @@ public:
     virtual void bounce(Unit* u) {};
 
     inline float collision_time(Unit* u) {
-        if (vx == u->vx && vy == u->vy)
+        if (vx == u->vx && vy == u->vy) {
             return -1;
+        }
 
         float sr2 = u->type == CP ? 357604 : 640000;
 
@@ -148,7 +155,8 @@ public:
 
         float t = (b - sqrt(delta)) * (1.0 / (2.0 * a));
 
-        if (t <= 0.0 || t > 1.0) return -1;
+        if (t <= 0.0 || t > 1.0)
+            return -1;
 
         return t;
     }
@@ -212,16 +220,19 @@ public:
     void apply(int thrust, float angle) {
         angle = max((float)-18., min((float)18., angle));
         this->angle += angle;
-        if (this->angle >= 360.)
+        if (this->angle >= 360.) {
             this->angle = this->angle - 360.;
-        else if (this->angle < 0.0)
+        }
+        else if (this->angle < 0.0) {
             this->angle += 360.;
+        }
 
-        if (thrust == -1)
+        if (thrust == -1) {
             this->shield = 4;
-        else
+        }
+        else {
             boost(thrust);
-
+        }
     }
 
     void rotate(Point* p) {
@@ -229,11 +240,12 @@ public:
         a = max((float)-18., min((float)18., a));
 
         angle += a;
-        if (angle >= 360.)
+        if (angle >= 360.) {
             angle = angle - 360.;
-        else if (angle < 0.0)
+        }
+        else if (angle < 0.0) {
             angle += 360.;
-
+        }
     }
 
     void boost(int thrust) {
@@ -261,8 +273,7 @@ public:
             checked = cp_ct * laps;
         }
         timeout--;
-        if (shield > 0)
-            shield--;
+        if (shield > 0) shield--;
     }
 
     void bounce(Unit* u) {
@@ -315,8 +326,9 @@ public:
         float right = angle <= a ? a - angle : 360. - angle + a;
         float left = angle >= a ? angle - a : angle + 360. - a;
 
-        if (right < left)
+        if (right < left) {
             return right;
+        }
 
         return -left;
     }
@@ -328,8 +340,9 @@ public:
 
         float a = acos(dx) * 180 / M_PI;
 
-        if (dy < 0)
+        if (dy < 0) {
             a = 360 - a;
+        }
 
         return a;
     }
@@ -340,9 +353,9 @@ public:
             timeout = partner->timeout = 100;
             checked++;
         }
-        else
+        else {
             timeout--;
-
+        }
 
         this->x = x;
         this->y = y;
@@ -352,10 +365,12 @@ public:
 
         if (is_p2 && id > 1)
             swap(angle, this->next_angle);
+
         this->angle = angle;
 
         if (::r == 0)
             this->angle = 1 + diff_angle(cps[1]);
+
         save();
     }
 
@@ -396,7 +411,7 @@ public:
     }
 
     void shift() {
-        for (int i = 1; i < DEPTH; i++) {
+        for (int i = 1; i < DEPTH; ++i) {
             angles[i - 1] = angles[i];
             thrusts[i - 1] = thrusts[i];
             angles[i - 1 + DEPTH] = angles[i + DEPTH];
@@ -435,7 +450,7 @@ public:
     }
 
     void randomize() {
-        for (int i = 0; i < 2 * DEPTH; i++) randomize(i, true);
+        for (int i = 0; i < 2 * DEPTH; ++i) randomize(i, true);
     }
 };
 
@@ -496,8 +511,10 @@ public:
         int thrust = abs(raw_angle) < 90 ? MAX_THRUST : 0;
         float angle = max((float)-18, min((float)18, raw_angle));
 
-        if (!for_output) pod->apply(thrust, angle);
-        else print_move(thrust, angle, pod);
+        if (!for_output)
+            pod->apply(thrust, angle);
+        else
+            print_move(thrust, angle, pod);
     }
 
     void move_blocker(bool for_output = false) {
@@ -510,8 +527,10 @@ public:
         int thrust = abs(raw_angle) < 90 ? MAX_THRUST : 0;
         float angle = max((float)-18, min((float)18, raw_angle));
 
-        if (!for_output) pod->apply(thrust, angle);
-        else print_move(thrust, angle, pod);
+        if (!for_output)
+            pod->apply(thrust, angle);
+        else
+            print_move(thrust, angle, pod);
     }
 };
 
@@ -550,8 +569,7 @@ public:
         Solution child;
         while (TIME < time) {
             best.mutate(&child);
-            if (get_score(&child) > get_score(&best))
-                best = child;
+            if (get_score(&child) > get_score(&best)) best = child;
         }
         sol = best;
     }
@@ -581,7 +599,8 @@ public:
         score += 0.9 * evaluate();
         load();
 
-        if (r > 0) sols_ct++;
+        if (r > 0)
+            sols_ct++;
 
         return score;
     }
@@ -593,6 +612,7 @@ public:
         Pod* opp_blocker = blocker(pods[(id + 2) % 4], pods[(id + 3) % 4]);
 
         float score = my_runner->score() - opp_runner->score();
+        
         //score -= my_blocker->dist(cps[opp_runner->ncpid]);
         //score -= my_blocker->diff_angle(opp_runner);
         score -= my_blocker->dist(opp_runner);
@@ -602,7 +622,8 @@ public:
 };
 
 void load() {
-    for (int i = 0; i < 4; i++) pods[i]->load();
+    for (int i = 0; i < 4; ++i)
+        pods[i]->load();
     turn = 0;
 }
 
@@ -610,8 +631,8 @@ void play() {
     float t = 0.0;
     while (t < 1.0) {
         Collision first_col = { NULL, NULL, -1 };
-        for (int i = 0; i < 4; i++) {
-            for (int j = i + 1; j < 4; j++) {
+        for (int i = 0; i < 4; ++i) {
+            for (int j = i + 1; j < 4; ++j) {
                 float col_time = pods[i]->collision_time(pods[j]);
                 if (col_time > -1 && col_time + t < 1.0 && (first_col.t == -1 || col_time < first_col.t)) {
                     first_col.a = pods[i];
@@ -620,36 +641,37 @@ void play() {
                 }
             }
 
-            // TODO this is wasteful, get rid of it??
-
+           
             float col_time = pods[i]->collision_time(cps[pods[i]->ncpid]);
             if (col_time > -1 && col_time + t < 1.0 && (first_col.t == -1 || col_time < first_col.t)) {
                 first_col.a = pods[i];
                 first_col.b = cps[pods[i]->ncpid];
                 first_col.t = col_time;
             }
+            
+            
 
         }
 
         if (first_col.t == -1) {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; ++i) {
                 pods[i]->move(1.0 - t);
-
+            }
             t = 1.0;
         }
         else {
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 4; ++i) {
                 pods[i]->move(first_col.t);
-
+            }
 
             first_col.a->bounce(first_col.b);
             t += first_col.t;
         }
     }
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 4; ++i) {
         pods[i]->end();
-
+    }
 }
 
 void print_move(int thrust, float angle, Pod* pod) {
@@ -666,7 +688,7 @@ void print_move(int thrust, float angle, Pod* pod) {
     float px = pod->x + cos(a) * 1000.0;
     float py = pod->y + sin(a) * 1000.0;
 
-    char copyright[] = "Luke, vazze... "; // do not remove
+    char copyright[] = " "; 
     if (thrust == -1) {
         printf("%d %d SHIELD %s\n", (int)round(px), (int)round(py), copyright);
         pod->shield = 4;
@@ -682,14 +704,13 @@ void print_move(int thrust, float angle, Pod* pod) {
 
 int main() {
     cin >> laps >> cp_ct;
-    for (int i = 0; i < cp_ct; i++) {
+    for (int i = 0; i < cp_ct; ++i) {
         int cx, cy;
         cin >> cx >> cy;
         cps[i] = new Checkpoint(i, cx, cy);
     }
 
-    for (int i = 0; i < 4; i++)
-        pods[i] = new Pod(i);
+    for (int i = 0; i < 4; ++i) pods[i] = new Pod(i);
 
     pods[0]->partner = pods[1];
     pods[1]->partner = pods[0];
@@ -704,16 +725,13 @@ int main() {
     SearchBot me;
     me.oppBots.push_back(&opp);
 
-    while (true) {
+    while (1) {
         r++;
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; ++i) {
             int x, y, vx, vy, angle, ncpid;
             cin >> x >> y >> vx >> vy >> angle >> ncpid;
-
-            if (r == 0 && i > 1 && angle > -1)
-                is_p2 = true;
-
+            if (r == 0 && i > 1 && angle > -1) is_p2 = true;
             pods[i]->update(x, y, vx, vy, angle, ncpid);
         }
 
@@ -721,13 +739,15 @@ int main() {
 
         float time_limit = r ? 0.142 : 0.98;
         time_limit *= 0.3;
+
         // use this to test reflex bot behavior
         // me_reflex.move_as_main();
 
         opp.solve(time_limit * 0.15);
         me.solve(time_limit, r > 0);
 
-        if (r > 0) cerr << "Avg iters: " << sols_ct / r << "; Avg sims: " << sols_ct * DEPTH / r << endl;
+        if (r > 0)
+            cerr << "Avg iters: " << sols_ct / r << "; Avg sims: " << sols_ct * DEPTH / r << endl;
 
         print_move(me.sol.thrusts[0], me.sol.angles[0], pods[0]);
         print_move(me.sol.thrusts[DEPTH], me.sol.angles[DEPTH], pods[1]);
