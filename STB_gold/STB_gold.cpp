@@ -37,6 +37,7 @@ constexpr int POD = 1;
 constexpr int DEPTH = 6;
 constexpr float SHIELD_PROB = 10;
 constexpr int MAX_THRUST = 200;
+constexpr int SCORE_GAP = 1000;
 
 constexpr float E = 0.00001;
 
@@ -475,7 +476,7 @@ public:
     }
 
     Pod* runner(Pod* pod0, Pod* pod1) {
-        return pod0->score() - pod1->score() >= -1000 ? pod0 : pod1;
+        return pod0->score() + SCORE_GAP >= pod1->score() ? pod0 : pod1;
     }
 
     Pod* blocker(Pod* pod0, Pod* pod1) {
@@ -593,7 +594,8 @@ public:
             move(sol);
             opp->move();
             play();
-            if (turn == 0) score += 0.1 * evaluate();
+            if (turn == 0)
+                score += 0.1 * evaluate();
             turn++;
         }
         score += 0.9 * evaluate();
@@ -611,11 +613,17 @@ public:
         Pod* opp_runner = runner(pods[(id + 2) % 4], pods[(id + 3) % 4]);
         Pod* opp_blocker = blocker(pods[(id + 2) % 4], pods[(id + 3) % 4]);
 
-        float score = my_runner->score() - opp_runner->score();
+        float score = (my_runner->score() - opp_runner->score()) * 10000;
+
         
-        //score -= my_blocker->dist(cps[opp_runner->ncpid]);
+        
+        score -= my_blocker->dist2(cps[opp_runner->ncpid]);
+
+
+
+
         //score -= my_blocker->diff_angle(opp_runner);
-        score -= my_blocker->dist(opp_runner);
+        //score -= my_blocker->dist(opp_runner);
 
         return score;
     }
@@ -688,7 +696,10 @@ void print_move(int thrust, float angle, Pod* pod) {
     float px = pod->x + cos(a) * 1000.0;
     float py = pod->y + sin(a) * 1000.0;
 
+    
     char copyright[] = " "; 
+
+
     if (thrust == -1) {
         printf("%d %d SHIELD %s\n", (int)round(px), (int)round(py), copyright);
         pod->shield = 4;
