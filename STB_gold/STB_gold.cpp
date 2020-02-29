@@ -741,7 +741,7 @@ int main() {
         now = high_resolution_clock::now();
 
         float time_limit = r ? 0.142 : 0.98;
-        time_limit *= 0.3;
+        time_limit *= 0.4;
 
         // use this to test reflex bot behavior
         // me_reflex.move_as_main();
