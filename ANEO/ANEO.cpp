@@ -4,13 +4,13 @@
 #include <algorithm>
 
 #include <cmath>
-#include "plog\log.h"
+//#include "plog\log.h"
 
 
 
 using namespace std;
 
-constexpr bool test{ true };
+constexpr bool test{ false };
 
 
 // test data
@@ -102,6 +102,7 @@ bool passTrafficLight(TrafficLight trafficLight, int speed, bool test)
     double period{ hoursToLight / trafficLight.duration };
     bool returnValue{ fmod(period, 2) == 0 || period <= 1 };
 
+    /*
     if (test)
     {
         PLOGD << "speed: " << speed << " distance: " << trafficLight.distance << " duration: " << trafficLight.duration;
@@ -109,6 +110,8 @@ bool passTrafficLight(TrafficLight trafficLight, int speed, bool test)
         PLOGD << "fmod: " << fmod(period, 2.0);
         PLOGD << "returnValue: " << returnValue;
     }
+    */
+    
     
     
     
@@ -142,7 +145,7 @@ int main()
 {
     
     
-    plog::init(plog::debug, "Logfile.txt");
+    //plog::init(plog::debug, "Logfile.txt");
     
     vector_type trafficLights{};
     GameData gameData{ getData(trafficLights, test) };
