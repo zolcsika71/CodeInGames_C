@@ -1,0 +1,1080 @@
+﻿2020-03-04 16:09:30.457 DEBUG [6668] [passTrafficLight@107] speed: 90 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.458 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00333333 period: 1.2
+2020-03-04 16:09:30.459 DEBUG [6668] [passTrafficLight@109] fmod: 1.2
+2020-03-04 16:09:30.459 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.459 DEBUG [6668] [passTrafficLight@107] speed: 90 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.460 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0166667 period: 6
+2020-03-04 16:09:30.460 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.460 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.460 DEBUG [6668] [passTrafficLight@107] speed: 90 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.460 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0333333 period: 12
+2020-03-04 16:09:30.461 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.461 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.461 DEBUG [6668] [passTrafficLight@107] speed: 89 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.461 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00337079 period: 1.21348
+2020-03-04 16:09:30.461 DEBUG [6668] [passTrafficLight@109] fmod: 1.21348
+2020-03-04 16:09:30.462 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.462 DEBUG [6668] [passTrafficLight@107] speed: 89 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.462 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0168539 period: 6.06742
+2020-03-04 16:09:30.462 DEBUG [6668] [passTrafficLight@109] fmod: 0.0674157
+2020-03-04 16:09:30.462 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.462 DEBUG [6668] [passTrafficLight@107] speed: 89 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.463 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0337079 period: 12.1348
+2020-03-04 16:09:30.463 DEBUG [6668] [passTrafficLight@109] fmod: 0.134831
+2020-03-04 16:09:30.463 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.463 DEBUG [6668] [passTrafficLight@107] speed: 88 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.464 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00340909 period: 1.22727
+2020-03-04 16:09:30.464 DEBUG [6668] [passTrafficLight@109] fmod: 1.22727
+2020-03-04 16:09:30.464 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.464 DEBUG [6668] [passTrafficLight@107] speed: 88 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.465 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0170455 period: 6.13636
+2020-03-04 16:09:30.465 DEBUG [6668] [passTrafficLight@109] fmod: 0.136364
+2020-03-04 16:09:30.466 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.466 DEBUG [6668] [passTrafficLight@107] speed: 88 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.466 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0340909 period: 12.2727
+2020-03-04 16:09:30.467 DEBUG [6668] [passTrafficLight@109] fmod: 0.272727
+2020-03-04 16:09:30.467 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.467 DEBUG [6668] [passTrafficLight@107] speed: 87 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.467 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00344828 period: 1.24138
+2020-03-04 16:09:30.467 DEBUG [6668] [passTrafficLight@109] fmod: 1.24138
+2020-03-04 16:09:30.468 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.468 DEBUG [6668] [passTrafficLight@107] speed: 87 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.468 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0172414 period: 6.2069
+2020-03-04 16:09:30.468 DEBUG [6668] [passTrafficLight@109] fmod: 0.206897
+2020-03-04 16:09:30.468 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.468 DEBUG [6668] [passTrafficLight@107] speed: 87 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.469 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0344828 period: 12.4138
+2020-03-04 16:09:30.469 DEBUG [6668] [passTrafficLight@109] fmod: 0.413793
+2020-03-04 16:09:30.469 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.469 DEBUG [6668] [passTrafficLight@107] speed: 86 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.469 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00348837 period: 1.25581
+2020-03-04 16:09:30.470 DEBUG [6668] [passTrafficLight@109] fmod: 1.25581
+2020-03-04 16:09:30.470 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.470 DEBUG [6668] [passTrafficLight@107] speed: 86 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.470 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0174419 period: 6.27907
+2020-03-04 16:09:30.470 DEBUG [6668] [passTrafficLight@109] fmod: 0.27907
+2020-03-04 16:09:30.470 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.471 DEBUG [6668] [passTrafficLight@107] speed: 86 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.471 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0348837 period: 12.5581
+2020-03-04 16:09:30.471 DEBUG [6668] [passTrafficLight@109] fmod: 0.55814
+2020-03-04 16:09:30.471 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.471 DEBUG [6668] [passTrafficLight@107] speed: 85 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.472 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00352941 period: 1.27059
+2020-03-04 16:09:30.472 DEBUG [6668] [passTrafficLight@109] fmod: 1.27059
+2020-03-04 16:09:30.472 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.472 DEBUG [6668] [passTrafficLight@107] speed: 85 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.472 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0176471 period: 6.35294
+2020-03-04 16:09:30.473 DEBUG [6668] [passTrafficLight@109] fmod: 0.352941
+2020-03-04 16:09:30.473 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.473 DEBUG [6668] [passTrafficLight@107] speed: 85 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.473 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0352941 period: 12.7059
+2020-03-04 16:09:30.473 DEBUG [6668] [passTrafficLight@109] fmod: 0.705882
+2020-03-04 16:09:30.474 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.474 DEBUG [6668] [passTrafficLight@107] speed: 84 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.474 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00357143 period: 1.28571
+2020-03-04 16:09:30.474 DEBUG [6668] [passTrafficLight@109] fmod: 1.28571
+2020-03-04 16:09:30.474 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.475 DEBUG [6668] [passTrafficLight@107] speed: 84 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.475 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0178571 period: 6.42857
+2020-03-04 16:09:30.475 DEBUG [6668] [passTrafficLight@109] fmod: 0.428571
+2020-03-04 16:09:30.475 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.476 DEBUG [6668] [passTrafficLight@107] speed: 84 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.476 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0357143 period: 12.8571
+2020-03-04 16:09:30.477 DEBUG [6668] [passTrafficLight@109] fmod: 0.857143
+2020-03-04 16:09:30.477 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.477 DEBUG [6668] [passTrafficLight@107] speed: 83 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.478 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00361446 period: 1.3012
+2020-03-04 16:09:30.478 DEBUG [6668] [passTrafficLight@109] fmod: 1.3012
+2020-03-04 16:09:30.478 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.479 DEBUG [6668] [passTrafficLight@107] speed: 83 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.479 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0180723 period: 6.50602
+2020-03-04 16:09:30.479 DEBUG [6668] [passTrafficLight@109] fmod: 0.506024
+2020-03-04 16:09:30.479 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.479 DEBUG [6668] [passTrafficLight@107] speed: 83 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.480 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0361446 period: 13.012
+2020-03-04 16:09:30.480 DEBUG [6668] [passTrafficLight@109] fmod: 1.01205
+2020-03-04 16:09:30.480 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.480 DEBUG [6668] [passTrafficLight@107] speed: 82 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.480 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00365854 period: 1.31707
+2020-03-04 16:09:30.481 DEBUG [6668] [passTrafficLight@109] fmod: 1.31707
+2020-03-04 16:09:30.481 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.481 DEBUG [6668] [passTrafficLight@107] speed: 82 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.481 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0182927 period: 6.58537
+2020-03-04 16:09:30.481 DEBUG [6668] [passTrafficLight@109] fmod: 0.585366
+2020-03-04 16:09:30.482 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.482 DEBUG [6668] [passTrafficLight@107] speed: 82 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.482 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0365854 period: 13.1707
+2020-03-04 16:09:30.482 DEBUG [6668] [passTrafficLight@109] fmod: 1.17073
+2020-03-04 16:09:30.482 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.482 DEBUG [6668] [passTrafficLight@107] speed: 81 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.483 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0037037 period: 1.33333
+2020-03-04 16:09:30.483 DEBUG [6668] [passTrafficLight@109] fmod: 1.33333
+2020-03-04 16:09:30.483 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.483 DEBUG [6668] [passTrafficLight@107] speed: 81 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.483 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0185185 period: 6.66667
+2020-03-04 16:09:30.483 DEBUG [6668] [passTrafficLight@109] fmod: 0.666667
+2020-03-04 16:09:30.484 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.484 DEBUG [6668] [passTrafficLight@107] speed: 81 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.484 DEBUG [6668] [passTrafficLight@108] hourToLight 0.037037 period: 13.3333
+2020-03-04 16:09:30.484 DEBUG [6668] [passTrafficLight@109] fmod: 1.33333
+2020-03-04 16:09:30.484 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.484 DEBUG [6668] [passTrafficLight@107] speed: 80 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.485 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00375 period: 1.35
+2020-03-04 16:09:30.485 DEBUG [6668] [passTrafficLight@109] fmod: 1.35
+2020-03-04 16:09:30.485 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.485 DEBUG [6668] [passTrafficLight@107] speed: 80 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.485 DEBUG [6668] [passTrafficLight@108] hourToLight 0.01875 period: 6.75
+2020-03-04 16:09:30.485 DEBUG [6668] [passTrafficLight@109] fmod: 0.75
+2020-03-04 16:09:30.486 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.486 DEBUG [6668] [passTrafficLight@107] speed: 80 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.486 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0375 period: 13.5
+2020-03-04 16:09:30.486 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.486 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.486 DEBUG [6668] [passTrafficLight@107] speed: 79 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.487 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00379747 period: 1.36709
+2020-03-04 16:09:30.487 DEBUG [6668] [passTrafficLight@109] fmod: 1.36709
+2020-03-04 16:09:30.487 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.487 DEBUG [6668] [passTrafficLight@107] speed: 79 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.487 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0189873 period: 6.83544
+2020-03-04 16:09:30.487 DEBUG [6668] [passTrafficLight@109] fmod: 0.835443
+2020-03-04 16:09:30.488 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.488 DEBUG [6668] [passTrafficLight@107] speed: 79 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.488 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0379747 period: 13.6709
+2020-03-04 16:09:30.488 DEBUG [6668] [passTrafficLight@109] fmod: 1.67089
+2020-03-04 16:09:30.488 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.489 DEBUG [6668] [passTrafficLight@107] speed: 78 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.489 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00384615 period: 1.38462
+2020-03-04 16:09:30.489 DEBUG [6668] [passTrafficLight@109] fmod: 1.38462
+2020-03-04 16:09:30.489 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.489 DEBUG [6668] [passTrafficLight@107] speed: 78 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.489 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0192308 period: 6.92308
+2020-03-04 16:09:30.490 DEBUG [6668] [passTrafficLight@109] fmod: 0.923077
+2020-03-04 16:09:30.490 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.490 DEBUG [6668] [passTrafficLight@107] speed: 78 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.490 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0384615 period: 13.8462
+2020-03-04 16:09:30.490 DEBUG [6668] [passTrafficLight@109] fmod: 1.84615
+2020-03-04 16:09:30.490 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.491 DEBUG [6668] [passTrafficLight@107] speed: 77 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.491 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0038961 period: 1.4026
+2020-03-04 16:09:30.491 DEBUG [6668] [passTrafficLight@109] fmod: 1.4026
+2020-03-04 16:09:30.491 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.491 DEBUG [6668] [passTrafficLight@107] speed: 77 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.491 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0194805 period: 7.01299
+2020-03-04 16:09:30.492 DEBUG [6668] [passTrafficLight@109] fmod: 1.01299
+2020-03-04 16:09:30.492 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.492 DEBUG [6668] [passTrafficLight@107] speed: 77 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.492 DEBUG [6668] [passTrafficLight@108] hourToLight 0.038961 period: 14.026
+2020-03-04 16:09:30.492 DEBUG [6668] [passTrafficLight@109] fmod: 0.025974
+2020-03-04 16:09:30.492 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.493 DEBUG [6668] [passTrafficLight@107] speed: 76 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.493 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00394737 period: 1.42105
+2020-03-04 16:09:30.493 DEBUG [6668] [passTrafficLight@109] fmod: 1.42105
+2020-03-04 16:09:30.493 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.493 DEBUG [6668] [passTrafficLight@107] speed: 76 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.493 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0197368 period: 7.10526
+2020-03-04 16:09:30.494 DEBUG [6668] [passTrafficLight@109] fmod: 1.10526
+2020-03-04 16:09:30.494 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.494 DEBUG [6668] [passTrafficLight@107] speed: 76 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.494 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0394737 period: 14.2105
+2020-03-04 16:09:30.494 DEBUG [6668] [passTrafficLight@109] fmod: 0.210526
+2020-03-04 16:09:30.494 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.495 DEBUG [6668] [passTrafficLight@107] speed: 75 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.495 DEBUG [6668] [passTrafficLight@108] hourToLight 0.004 period: 1.44
+2020-03-04 16:09:30.495 DEBUG [6668] [passTrafficLight@109] fmod: 1.44
+2020-03-04 16:09:30.495 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.495 DEBUG [6668] [passTrafficLight@107] speed: 75 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.496 DEBUG [6668] [passTrafficLight@108] hourToLight 0.02 period: 7.2
+2020-03-04 16:09:30.496 DEBUG [6668] [passTrafficLight@109] fmod: 1.2
+2020-03-04 16:09:30.496 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.496 DEBUG [6668] [passTrafficLight@107] speed: 75 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.496 DEBUG [6668] [passTrafficLight@108] hourToLight 0.04 period: 14.4
+2020-03-04 16:09:30.496 DEBUG [6668] [passTrafficLight@109] fmod: 0.4
+2020-03-04 16:09:30.497 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.497 DEBUG [6668] [passTrafficLight@107] speed: 74 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.497 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00405405 period: 1.45946
+2020-03-04 16:09:30.497 DEBUG [6668] [passTrafficLight@109] fmod: 1.45946
+2020-03-04 16:09:30.497 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.497 DEBUG [6668] [passTrafficLight@107] speed: 74 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.498 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0202703 period: 7.2973
+2020-03-04 16:09:30.498 DEBUG [6668] [passTrafficLight@109] fmod: 1.2973
+2020-03-04 16:09:30.498 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.498 DEBUG [6668] [passTrafficLight@107] speed: 74 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.498 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0405405 period: 14.5946
+2020-03-04 16:09:30.498 DEBUG [6668] [passTrafficLight@109] fmod: 0.594595
+2020-03-04 16:09:30.499 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.499 DEBUG [6668] [passTrafficLight@107] speed: 73 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.499 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00410959 period: 1.47945
+2020-03-04 16:09:30.499 DEBUG [6668] [passTrafficLight@109] fmod: 1.47945
+2020-03-04 16:09:30.499 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.499 DEBUG [6668] [passTrafficLight@107] speed: 73 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.500 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0205479 period: 7.39726
+2020-03-04 16:09:30.500 DEBUG [6668] [passTrafficLight@109] fmod: 1.39726
+2020-03-04 16:09:30.500 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.500 DEBUG [6668] [passTrafficLight@107] speed: 73 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.500 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0410959 period: 14.7945
+2020-03-04 16:09:30.501 DEBUG [6668] [passTrafficLight@109] fmod: 0.794521
+2020-03-04 16:09:30.501 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.501 DEBUG [6668] [passTrafficLight@107] speed: 72 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.501 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00416667 period: 1.5
+2020-03-04 16:09:30.502 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.502 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.502 DEBUG [6668] [passTrafficLight@107] speed: 72 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.502 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0208333 period: 7.5
+2020-03-04 16:09:30.502 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.502 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.503 DEBUG [6668] [passTrafficLight@107] speed: 72 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.503 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0416667 period: 15
+2020-03-04 16:09:30.503 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.503 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.504 DEBUG [6668] [passTrafficLight@107] speed: 71 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.504 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00422535 period: 1.52113
+2020-03-04 16:09:30.504 DEBUG [6668] [passTrafficLight@109] fmod: 1.52113
+2020-03-04 16:09:30.504 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.504 DEBUG [6668] [passTrafficLight@107] speed: 71 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.505 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0211268 period: 7.60563
+2020-03-04 16:09:30.505 DEBUG [6668] [passTrafficLight@109] fmod: 1.60563
+2020-03-04 16:09:30.505 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.505 DEBUG [6668] [passTrafficLight@107] speed: 71 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.505 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0422535 period: 15.2113
+2020-03-04 16:09:30.505 DEBUG [6668] [passTrafficLight@109] fmod: 1.21127
+2020-03-04 16:09:30.506 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.506 DEBUG [6668] [passTrafficLight@107] speed: 70 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.506 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00428571 period: 1.54286
+2020-03-04 16:09:30.506 DEBUG [6668] [passTrafficLight@109] fmod: 1.54286
+2020-03-04 16:09:30.506 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.507 DEBUG [6668] [passTrafficLight@107] speed: 70 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.507 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0214286 period: 7.71429
+2020-03-04 16:09:30.507 DEBUG [6668] [passTrafficLight@109] fmod: 1.71429
+2020-03-04 16:09:30.507 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.508 DEBUG [6668] [passTrafficLight@107] speed: 70 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.508 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0428571 period: 15.4286
+2020-03-04 16:09:30.508 DEBUG [6668] [passTrafficLight@109] fmod: 1.42857
+2020-03-04 16:09:30.509 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.509 DEBUG [6668] [passTrafficLight@107] speed: 69 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.509 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00434783 period: 1.56522
+2020-03-04 16:09:30.510 DEBUG [6668] [passTrafficLight@109] fmod: 1.56522
+2020-03-04 16:09:30.510 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.510 DEBUG [6668] [passTrafficLight@107] speed: 69 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.511 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0217391 period: 7.82609
+2020-03-04 16:09:30.511 DEBUG [6668] [passTrafficLight@109] fmod: 1.82609
+2020-03-04 16:09:30.511 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.512 DEBUG [6668] [passTrafficLight@107] speed: 69 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.512 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0434783 period: 15.6522
+2020-03-04 16:09:30.513 DEBUG [6668] [passTrafficLight@109] fmod: 1.65217
+2020-03-04 16:09:30.513 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.514 DEBUG [6668] [passTrafficLight@107] speed: 68 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.514 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00441176 period: 1.58824
+2020-03-04 16:09:30.515 DEBUG [6668] [passTrafficLight@109] fmod: 1.58824
+2020-03-04 16:09:30.515 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.515 DEBUG [6668] [passTrafficLight@107] speed: 68 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.516 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0220588 period: 7.94118
+2020-03-04 16:09:30.516 DEBUG [6668] [passTrafficLight@109] fmod: 1.94118
+2020-03-04 16:09:30.517 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.517 DEBUG [6668] [passTrafficLight@107] speed: 68 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.518 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0441176 period: 15.8824
+2020-03-04 16:09:30.518 DEBUG [6668] [passTrafficLight@109] fmod: 1.88235
+2020-03-04 16:09:30.519 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.519 DEBUG [6668] [passTrafficLight@107] speed: 67 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.519 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00447761 period: 1.61194
+2020-03-04 16:09:30.519 DEBUG [6668] [passTrafficLight@109] fmod: 1.61194
+2020-03-04 16:09:30.519 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.519 DEBUG [6668] [passTrafficLight@107] speed: 67 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.520 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0223881 period: 8.0597
+2020-03-04 16:09:30.520 DEBUG [6668] [passTrafficLight@109] fmod: 0.0597015
+2020-03-04 16:09:30.520 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.520 DEBUG [6668] [passTrafficLight@107] speed: 67 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.520 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0447761 period: 16.1194
+2020-03-04 16:09:30.520 DEBUG [6668] [passTrafficLight@109] fmod: 0.119403
+2020-03-04 16:09:30.521 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.521 DEBUG [6668] [passTrafficLight@107] speed: 66 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.521 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00454545 period: 1.63636
+2020-03-04 16:09:30.521 DEBUG [6668] [passTrafficLight@109] fmod: 1.63636
+2020-03-04 16:09:30.521 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.522 DEBUG [6668] [passTrafficLight@107] speed: 66 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.522 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0227273 period: 8.18182
+2020-03-04 16:09:30.522 DEBUG [6668] [passTrafficLight@109] fmod: 0.181818
+2020-03-04 16:09:30.522 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.522 DEBUG [6668] [passTrafficLight@107] speed: 66 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.522 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0454545 period: 16.3636
+2020-03-04 16:09:30.523 DEBUG [6668] [passTrafficLight@109] fmod: 0.363636
+2020-03-04 16:09:30.523 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.523 DEBUG [6668] [passTrafficLight@107] speed: 65 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.523 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00461538 period: 1.66154
+2020-03-04 16:09:30.523 DEBUG [6668] [passTrafficLight@109] fmod: 1.66154
+2020-03-04 16:09:30.523 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.524 DEBUG [6668] [passTrafficLight@107] speed: 65 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.524 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0230769 period: 8.30769
+2020-03-04 16:09:30.524 DEBUG [6668] [passTrafficLight@109] fmod: 0.307692
+2020-03-04 16:09:30.524 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.524 DEBUG [6668] [passTrafficLight@107] speed: 65 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.524 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0461538 period: 16.6154
+2020-03-04 16:09:30.525 DEBUG [6668] [passTrafficLight@109] fmod: 0.615385
+2020-03-04 16:09:30.525 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.525 DEBUG [6668] [passTrafficLight@107] speed: 64 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.525 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0046875 period: 1.6875
+2020-03-04 16:09:30.526 DEBUG [6668] [passTrafficLight@109] fmod: 1.6875
+2020-03-04 16:09:30.526 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.526 DEBUG [6668] [passTrafficLight@107] speed: 64 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.526 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0234375 period: 8.4375
+2020-03-04 16:09:30.526 DEBUG [6668] [passTrafficLight@109] fmod: 0.4375
+2020-03-04 16:09:30.527 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.527 DEBUG [6668] [passTrafficLight@107] speed: 64 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.527 DEBUG [6668] [passTrafficLight@108] hourToLight 0.046875 period: 16.875
+2020-03-04 16:09:30.527 DEBUG [6668] [passTrafficLight@109] fmod: 0.875
+2020-03-04 16:09:30.527 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.527 DEBUG [6668] [passTrafficLight@107] speed: 63 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.528 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0047619 period: 1.71429
+2020-03-04 16:09:30.528 DEBUG [6668] [passTrafficLight@109] fmod: 1.71429
+2020-03-04 16:09:30.528 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.528 DEBUG [6668] [passTrafficLight@107] speed: 63 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.528 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0238095 period: 8.57143
+2020-03-04 16:09:30.529 DEBUG [6668] [passTrafficLight@109] fmod: 0.571429
+2020-03-04 16:09:30.529 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.529 DEBUG [6668] [passTrafficLight@107] speed: 63 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.529 DEBUG [6668] [passTrafficLight@108] hourToLight 0.047619 period: 17.1429
+2020-03-04 16:09:30.529 DEBUG [6668] [passTrafficLight@109] fmod: 1.14286
+2020-03-04 16:09:30.529 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.530 DEBUG [6668] [passTrafficLight@107] speed: 62 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.530 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00483871 period: 1.74194
+2020-03-04 16:09:30.530 DEBUG [6668] [passTrafficLight@109] fmod: 1.74194
+2020-03-04 16:09:30.530 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.530 DEBUG [6668] [passTrafficLight@107] speed: 62 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.530 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0241935 period: 8.70968
+2020-03-04 16:09:30.531 DEBUG [6668] [passTrafficLight@109] fmod: 0.709677
+2020-03-04 16:09:30.531 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.531 DEBUG [6668] [passTrafficLight@107] speed: 62 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.531 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0483871 period: 17.4194
+2020-03-04 16:09:30.531 DEBUG [6668] [passTrafficLight@109] fmod: 1.41935
+2020-03-04 16:09:30.531 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.532 DEBUG [6668] [passTrafficLight@107] speed: 61 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.532 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00491803 period: 1.77049
+2020-03-04 16:09:30.532 DEBUG [6668] [passTrafficLight@109] fmod: 1.77049
+2020-03-04 16:09:30.532 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.532 DEBUG [6668] [passTrafficLight@107] speed: 61 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.532 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0245902 period: 8.85246
+2020-03-04 16:09:30.533 DEBUG [6668] [passTrafficLight@109] fmod: 0.852459
+2020-03-04 16:09:30.533 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.533 DEBUG [6668] [passTrafficLight@107] speed: 61 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.533 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0491803 period: 17.7049
+2020-03-04 16:09:30.533 DEBUG [6668] [passTrafficLight@109] fmod: 1.70492
+2020-03-04 16:09:30.533 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.534 DEBUG [6668] [passTrafficLight@107] speed: 60 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.534 DEBUG [6668] [passTrafficLight@108] hourToLight 0.005 period: 1.8
+2020-03-04 16:09:30.534 DEBUG [6668] [passTrafficLight@109] fmod: 1.8
+2020-03-04 16:09:30.534 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.534 DEBUG [6668] [passTrafficLight@107] speed: 60 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.535 DEBUG [6668] [passTrafficLight@108] hourToLight 0.025 period: 9
+2020-03-04 16:09:30.535 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.535 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.535 DEBUG [6668] [passTrafficLight@107] speed: 60 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.535 DEBUG [6668] [passTrafficLight@108] hourToLight 0.05 period: 18
+2020-03-04 16:09:30.535 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.536 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.536 DEBUG [6668] [passTrafficLight@107] speed: 59 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.536 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00508475 period: 1.83051
+2020-03-04 16:09:30.536 DEBUG [6668] [passTrafficLight@109] fmod: 1.83051
+2020-03-04 16:09:30.536 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.536 DEBUG [6668] [passTrafficLight@107] speed: 59 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.537 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0254237 period: 9.15254
+2020-03-04 16:09:30.537 DEBUG [6668] [passTrafficLight@109] fmod: 1.15254
+2020-03-04 16:09:30.537 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.537 DEBUG [6668] [passTrafficLight@107] speed: 59 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.537 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0508475 period: 18.3051
+2020-03-04 16:09:30.537 DEBUG [6668] [passTrafficLight@109] fmod: 0.305085
+2020-03-04 16:09:30.538 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.538 DEBUG [6668] [passTrafficLight@107] speed: 58 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.538 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00517241 period: 1.86207
+2020-03-04 16:09:30.538 DEBUG [6668] [passTrafficLight@109] fmod: 1.86207
+2020-03-04 16:09:30.538 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.539 DEBUG [6668] [passTrafficLight@107] speed: 58 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.539 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0258621 period: 9.31034
+2020-03-04 16:09:30.539 DEBUG [6668] [passTrafficLight@109] fmod: 1.31034
+2020-03-04 16:09:30.540 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.540 DEBUG [6668] [passTrafficLight@107] speed: 58 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.540 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0517241 period: 18.6207
+2020-03-04 16:09:30.541 DEBUG [6668] [passTrafficLight@109] fmod: 0.62069
+2020-03-04 16:09:30.541 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.542 DEBUG [6668] [passTrafficLight@107] speed: 57 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.542 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00526316 period: 1.89474
+2020-03-04 16:09:30.543 DEBUG [6668] [passTrafficLight@109] fmod: 1.89474
+2020-03-04 16:09:30.543 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.543 DEBUG [6668] [passTrafficLight@107] speed: 57 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.544 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0263158 period: 9.47368
+2020-03-04 16:09:30.544 DEBUG [6668] [passTrafficLight@109] fmod: 1.47368
+2020-03-04 16:09:30.544 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.544 DEBUG [6668] [passTrafficLight@107] speed: 57 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.545 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0526316 period: 18.9474
+2020-03-04 16:09:30.545 DEBUG [6668] [passTrafficLight@109] fmod: 0.947368
+2020-03-04 16:09:30.545 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.545 DEBUG [6668] [passTrafficLight@107] speed: 56 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.546 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00535714 period: 1.92857
+2020-03-04 16:09:30.546 DEBUG [6668] [passTrafficLight@109] fmod: 1.92857
+2020-03-04 16:09:30.546 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.546 DEBUG [6668] [passTrafficLight@107] speed: 56 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.547 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0267857 period: 9.64286
+2020-03-04 16:09:30.547 DEBUG [6668] [passTrafficLight@109] fmod: 1.64286
+2020-03-04 16:09:30.547 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.548 DEBUG [6668] [passTrafficLight@107] speed: 56 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.548 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0535714 period: 19.2857
+2020-03-04 16:09:30.548 DEBUG [6668] [passTrafficLight@109] fmod: 1.28571
+2020-03-04 16:09:30.548 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.548 DEBUG [6668] [passTrafficLight@107] speed: 55 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.548 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00545455 period: 1.96364
+2020-03-04 16:09:30.549 DEBUG [6668] [passTrafficLight@109] fmod: 1.96364
+2020-03-04 16:09:30.549 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.549 DEBUG [6668] [passTrafficLight@107] speed: 55 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.549 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0272727 period: 9.81818
+2020-03-04 16:09:30.549 DEBUG [6668] [passTrafficLight@109] fmod: 1.81818
+2020-03-04 16:09:30.550 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.550 DEBUG [6668] [passTrafficLight@107] speed: 55 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.550 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0545455 period: 19.6364
+2020-03-04 16:09:30.550 DEBUG [6668] [passTrafficLight@109] fmod: 1.63636
+2020-03-04 16:09:30.550 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.550 DEBUG [6668] [passTrafficLight@107] speed: 54 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.551 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00555556 period: 2
+2020-03-04 16:09:30.551 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.551 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.551 DEBUG [6668] [passTrafficLight@107] speed: 54 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.551 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0277778 period: 10
+2020-03-04 16:09:30.551 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.552 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.552 DEBUG [6668] [passTrafficLight@107] speed: 54 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.552 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0555556 period: 20
+2020-03-04 16:09:30.552 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.552 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.552 DEBUG [6668] [passTrafficLight@107] speed: 53 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.553 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00566038 period: 2.03774
+2020-03-04 16:09:30.553 DEBUG [6668] [passTrafficLight@109] fmod: 0.0377358
+2020-03-04 16:09:30.553 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.553 DEBUG [6668] [passTrafficLight@107] speed: 53 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.553 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0283019 period: 10.1887
+2020-03-04 16:09:30.554 DEBUG [6668] [passTrafficLight@109] fmod: 0.188679
+2020-03-04 16:09:30.554 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.554 DEBUG [6668] [passTrafficLight@107] speed: 53 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.554 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0566038 period: 20.3774
+2020-03-04 16:09:30.554 DEBUG [6668] [passTrafficLight@109] fmod: 0.377358
+2020-03-04 16:09:30.554 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.555 DEBUG [6668] [passTrafficLight@107] speed: 52 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.555 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00576923 period: 2.07692
+2020-03-04 16:09:30.555 DEBUG [6668] [passTrafficLight@109] fmod: 0.0769231
+2020-03-04 16:09:30.555 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.555 DEBUG [6668] [passTrafficLight@107] speed: 52 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.555 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0288462 period: 10.3846
+2020-03-04 16:09:30.556 DEBUG [6668] [passTrafficLight@109] fmod: 0.384615
+2020-03-04 16:09:30.556 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.556 DEBUG [6668] [passTrafficLight@107] speed: 52 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.556 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0576923 period: 20.7692
+2020-03-04 16:09:30.556 DEBUG [6668] [passTrafficLight@109] fmod: 0.769231
+2020-03-04 16:09:30.557 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.557 DEBUG [6668] [passTrafficLight@107] speed: 51 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.557 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00588235 period: 2.11765
+2020-03-04 16:09:30.557 DEBUG [6668] [passTrafficLight@109] fmod: 0.117647
+2020-03-04 16:09:30.557 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.557 DEBUG [6668] [passTrafficLight@107] speed: 51 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.558 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0294118 period: 10.5882
+2020-03-04 16:09:30.558 DEBUG [6668] [passTrafficLight@109] fmod: 0.588235
+2020-03-04 16:09:30.558 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.558 DEBUG [6668] [passTrafficLight@107] speed: 51 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.558 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0588235 period: 21.1765
+2020-03-04 16:09:30.558 DEBUG [6668] [passTrafficLight@109] fmod: 1.17647
+2020-03-04 16:09:30.559 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.559 DEBUG [6668] [passTrafficLight@107] speed: 50 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.559 DEBUG [6668] [passTrafficLight@108] hourToLight 0.006 period: 2.16
+2020-03-04 16:09:30.559 DEBUG [6668] [passTrafficLight@109] fmod: 0.16
+2020-03-04 16:09:30.559 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.559 DEBUG [6668] [passTrafficLight@107] speed: 50 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.560 DEBUG [6668] [passTrafficLight@108] hourToLight 0.03 period: 10.8
+2020-03-04 16:09:30.560 DEBUG [6668] [passTrafficLight@109] fmod: 0.8
+2020-03-04 16:09:30.560 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.560 DEBUG [6668] [passTrafficLight@107] speed: 50 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.560 DEBUG [6668] [passTrafficLight@108] hourToLight 0.06 period: 21.6
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@109] fmod: 1.6
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@107] speed: 49 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00612245 period: 2.20408
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@109] fmod: 0.204082
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.561 DEBUG [6668] [passTrafficLight@107] speed: 49 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.562 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0306122 period: 11.0204
+2020-03-04 16:09:30.562 DEBUG [6668] [passTrafficLight@109] fmod: 1.02041
+2020-03-04 16:09:30.562 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.562 DEBUG [6668] [passTrafficLight@107] speed: 49 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.562 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0612245 period: 22.0408
+2020-03-04 16:09:30.563 DEBUG [6668] [passTrafficLight@109] fmod: 0.0408163
+2020-03-04 16:09:30.563 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.563 DEBUG [6668] [passTrafficLight@107] speed: 48 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.563 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00625 period: 2.25
+2020-03-04 16:09:30.563 DEBUG [6668] [passTrafficLight@109] fmod: 0.25
+2020-03-04 16:09:30.563 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.564 DEBUG [6668] [passTrafficLight@107] speed: 48 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.564 DEBUG [6668] [passTrafficLight@108] hourToLight 0.03125 period: 11.25
+2020-03-04 16:09:30.564 DEBUG [6668] [passTrafficLight@109] fmod: 1.25
+2020-03-04 16:09:30.564 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.564 DEBUG [6668] [passTrafficLight@107] speed: 48 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.564 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0625 period: 22.5
+2020-03-04 16:09:30.565 DEBUG [6668] [passTrafficLight@109] fmod: 0.5
+2020-03-04 16:09:30.565 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.565 DEBUG [6668] [passTrafficLight@107] speed: 47 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.565 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00638298 period: 2.29787
+2020-03-04 16:09:30.565 DEBUG [6668] [passTrafficLight@109] fmod: 0.297872
+2020-03-04 16:09:30.566 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.566 DEBUG [6668] [passTrafficLight@107] speed: 47 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.566 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0319149 period: 11.4894
+2020-03-04 16:09:30.566 DEBUG [6668] [passTrafficLight@109] fmod: 1.48936
+2020-03-04 16:09:30.566 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.566 DEBUG [6668] [passTrafficLight@107] speed: 47 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.567 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0638298 period: 22.9787
+2020-03-04 16:09:30.567 DEBUG [6668] [passTrafficLight@109] fmod: 0.978723
+2020-03-04 16:09:30.567 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.567 DEBUG [6668] [passTrafficLight@107] speed: 46 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.567 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00652174 period: 2.34783
+2020-03-04 16:09:30.567 DEBUG [6668] [passTrafficLight@109] fmod: 0.347826
+2020-03-04 16:09:30.568 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.568 DEBUG [6668] [passTrafficLight@107] speed: 46 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.568 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0326087 period: 11.7391
+2020-03-04 16:09:30.568 DEBUG [6668] [passTrafficLight@109] fmod: 1.73913
+2020-03-04 16:09:30.568 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.568 DEBUG [6668] [passTrafficLight@107] speed: 46 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.569 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0652174 period: 23.4783
+2020-03-04 16:09:30.569 DEBUG [6668] [passTrafficLight@109] fmod: 1.47826
+2020-03-04 16:09:30.569 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.569 DEBUG [6668] [passTrafficLight@107] speed: 45 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.569 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00666667 period: 2.4
+2020-03-04 16:09:30.569 DEBUG [6668] [passTrafficLight@109] fmod: 0.4
+2020-03-04 16:09:30.570 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.570 DEBUG [6668] [passTrafficLight@107] speed: 45 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.570 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0333333 period: 12
+2020-03-04 16:09:30.570 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.570 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.570 DEBUG [6668] [passTrafficLight@107] speed: 45 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.571 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0666667 period: 24
+2020-03-04 16:09:30.571 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.571 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.571 DEBUG [6668] [passTrafficLight@107] speed: 44 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.571 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00681818 period: 2.45455
+2020-03-04 16:09:30.571 DEBUG [6668] [passTrafficLight@109] fmod: 0.454545
+2020-03-04 16:09:30.572 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.572 DEBUG [6668] [passTrafficLight@107] speed: 44 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.572 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0340909 period: 12.2727
+2020-03-04 16:09:30.572 DEBUG [6668] [passTrafficLight@109] fmod: 0.272727
+2020-03-04 16:09:30.572 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.572 DEBUG [6668] [passTrafficLight@107] speed: 44 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.573 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0681818 period: 24.5455
+2020-03-04 16:09:30.573 DEBUG [6668] [passTrafficLight@109] fmod: 0.545455
+2020-03-04 16:09:30.573 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.573 DEBUG [6668] [passTrafficLight@107] speed: 43 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.573 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00697674 period: 2.51163
+2020-03-04 16:09:30.574 DEBUG [6668] [passTrafficLight@109] fmod: 0.511628
+2020-03-04 16:09:30.574 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.574 DEBUG [6668] [passTrafficLight@107] speed: 43 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.574 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0348837 period: 12.5581
+2020-03-04 16:09:30.574 DEBUG [6668] [passTrafficLight@109] fmod: 0.55814
+2020-03-04 16:09:30.574 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.575 DEBUG [6668] [passTrafficLight@107] speed: 43 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.575 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0697674 period: 25.1163
+2020-03-04 16:09:30.575 DEBUG [6668] [passTrafficLight@109] fmod: 1.11628
+2020-03-04 16:09:30.575 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.575 DEBUG [6668] [passTrafficLight@107] speed: 42 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.576 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00714286 period: 2.57143
+2020-03-04 16:09:30.576 DEBUG [6668] [passTrafficLight@109] fmod: 0.571429
+2020-03-04 16:09:30.576 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.576 DEBUG [6668] [passTrafficLight@107] speed: 42 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.576 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0357143 period: 12.8571
+2020-03-04 16:09:30.576 DEBUG [6668] [passTrafficLight@109] fmod: 0.857143
+2020-03-04 16:09:30.577 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.577 DEBUG [6668] [passTrafficLight@107] speed: 42 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.577 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0714286 period: 25.7143
+2020-03-04 16:09:30.577 DEBUG [6668] [passTrafficLight@109] fmod: 1.71429
+2020-03-04 16:09:30.577 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.577 DEBUG [6668] [passTrafficLight@107] speed: 41 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.578 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00731707 period: 2.63415
+2020-03-04 16:09:30.578 DEBUG [6668] [passTrafficLight@109] fmod: 0.634146
+2020-03-04 16:09:30.578 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.578 DEBUG [6668] [passTrafficLight@107] speed: 41 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.578 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0365854 period: 13.1707
+2020-03-04 16:09:30.579 DEBUG [6668] [passTrafficLight@109] fmod: 1.17073
+2020-03-04 16:09:30.579 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.579 DEBUG [6668] [passTrafficLight@107] speed: 41 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.579 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0731707 period: 26.3415
+2020-03-04 16:09:30.579 DEBUG [6668] [passTrafficLight@109] fmod: 0.341463
+2020-03-04 16:09:30.579 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.580 DEBUG [6668] [passTrafficLight@107] speed: 40 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.580 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0075 period: 2.7
+2020-03-04 16:09:30.580 DEBUG [6668] [passTrafficLight@109] fmod: 0.7
+2020-03-04 16:09:30.580 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.580 DEBUG [6668] [passTrafficLight@107] speed: 40 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.581 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0375 period: 13.5
+2020-03-04 16:09:30.581 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.581 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.581 DEBUG [6668] [passTrafficLight@107] speed: 40 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.581 DEBUG [6668] [passTrafficLight@108] hourToLight 0.075 period: 27
+2020-03-04 16:09:30.582 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.582 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.582 DEBUG [6668] [passTrafficLight@107] speed: 39 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.582 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00769231 period: 2.76923
+2020-03-04 16:09:30.582 DEBUG [6668] [passTrafficLight@109] fmod: 0.769231
+2020-03-04 16:09:30.583 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.583 DEBUG [6668] [passTrafficLight@107] speed: 39 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.583 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0384615 period: 13.8462
+2020-03-04 16:09:30.583 DEBUG [6668] [passTrafficLight@109] fmod: 1.84615
+2020-03-04 16:09:30.583 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.583 DEBUG [6668] [passTrafficLight@107] speed: 39 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.584 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0769231 period: 27.6923
+2020-03-04 16:09:30.584 DEBUG [6668] [passTrafficLight@109] fmod: 1.69231
+2020-03-04 16:09:30.584 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.584 DEBUG [6668] [passTrafficLight@107] speed: 38 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.584 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00789474 period: 2.84211
+2020-03-04 16:09:30.584 DEBUG [6668] [passTrafficLight@109] fmod: 0.842105
+2020-03-04 16:09:30.585 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.585 DEBUG [6668] [passTrafficLight@107] speed: 38 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.585 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0394737 period: 14.2105
+2020-03-04 16:09:30.586 DEBUG [6668] [passTrafficLight@109] fmod: 0.210526
+2020-03-04 16:09:30.586 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.586 DEBUG [6668] [passTrafficLight@107] speed: 38 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.587 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0789474 period: 28.4211
+2020-03-04 16:09:30.587 DEBUG [6668] [passTrafficLight@109] fmod: 0.421053
+2020-03-04 16:09:30.587 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.588 DEBUG [6668] [passTrafficLight@107] speed: 37 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.588 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00810811 period: 2.91892
+2020-03-04 16:09:30.588 DEBUG [6668] [passTrafficLight@109] fmod: 0.918919
+2020-03-04 16:09:30.588 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.589 DEBUG [6668] [passTrafficLight@107] speed: 37 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.589 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0405405 period: 14.5946
+2020-03-04 16:09:30.590 DEBUG [6668] [passTrafficLight@109] fmod: 0.594595
+2020-03-04 16:09:30.590 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.590 DEBUG [6668] [passTrafficLight@107] speed: 37 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.591 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0810811 period: 29.1892
+2020-03-04 16:09:30.591 DEBUG [6668] [passTrafficLight@109] fmod: 1.18919
+2020-03-04 16:09:30.591 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.591 DEBUG [6668] [passTrafficLight@107] speed: 36 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.591 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00833333 period: 3
+2020-03-04 16:09:30.592 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.592 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.592 DEBUG [6668] [passTrafficLight@107] speed: 36 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.592 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0416667 period: 15
+2020-03-04 16:09:30.592 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.592 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.593 DEBUG [6668] [passTrafficLight@107] speed: 36 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.593 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0833333 period: 30
+2020-03-04 16:09:30.593 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.594 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.594 DEBUG [6668] [passTrafficLight@107] speed: 35 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.594 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00857143 period: 3.08571
+2020-03-04 16:09:30.595 DEBUG [6668] [passTrafficLight@109] fmod: 1.08571
+2020-03-04 16:09:30.595 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.595 DEBUG [6668] [passTrafficLight@107] speed: 35 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.596 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0428571 period: 15.4286
+2020-03-04 16:09:30.596 DEBUG [6668] [passTrafficLight@109] fmod: 1.42857
+2020-03-04 16:09:30.596 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.597 DEBUG [6668] [passTrafficLight@107] speed: 35 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.597 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0857143 period: 30.8571
+2020-03-04 16:09:30.597 DEBUG [6668] [passTrafficLight@109] fmod: 0.857143
+2020-03-04 16:09:30.598 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.598 DEBUG [6668] [passTrafficLight@107] speed: 34 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.598 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00882353 period: 3.17647
+2020-03-04 16:09:30.598 DEBUG [6668] [passTrafficLight@109] fmod: 1.17647
+2020-03-04 16:09:30.598 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.599 DEBUG [6668] [passTrafficLight@107] speed: 34 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.599 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0441176 period: 15.8824
+2020-03-04 16:09:30.599 DEBUG [6668] [passTrafficLight@109] fmod: 1.88235
+2020-03-04 16:09:30.599 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.599 DEBUG [6668] [passTrafficLight@107] speed: 34 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.599 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0882353 period: 31.7647
+2020-03-04 16:09:30.600 DEBUG [6668] [passTrafficLight@109] fmod: 1.76471
+2020-03-04 16:09:30.600 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.600 DEBUG [6668] [passTrafficLight@107] speed: 33 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.600 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00909091 period: 3.27273
+2020-03-04 16:09:30.600 DEBUG [6668] [passTrafficLight@109] fmod: 1.27273
+2020-03-04 16:09:30.600 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.601 DEBUG [6668] [passTrafficLight@107] speed: 33 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.601 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0454545 period: 16.3636
+2020-03-04 16:09:30.601 DEBUG [6668] [passTrafficLight@109] fmod: 0.363636
+2020-03-04 16:09:30.601 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.601 DEBUG [6668] [passTrafficLight@107] speed: 33 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.601 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0909091 period: 32.7273
+2020-03-04 16:09:30.602 DEBUG [6668] [passTrafficLight@109] fmod: 0.727273
+2020-03-04 16:09:30.602 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.602 DEBUG [6668] [passTrafficLight@107] speed: 32 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.602 DEBUG [6668] [passTrafficLight@108] hourToLight 0.009375 period: 3.375
+2020-03-04 16:09:30.602 DEBUG [6668] [passTrafficLight@109] fmod: 1.375
+2020-03-04 16:09:30.603 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.603 DEBUG [6668] [passTrafficLight@107] speed: 32 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.603 DEBUG [6668] [passTrafficLight@108] hourToLight 0.046875 period: 16.875
+2020-03-04 16:09:30.603 DEBUG [6668] [passTrafficLight@109] fmod: 0.875
+2020-03-04 16:09:30.603 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.603 DEBUG [6668] [passTrafficLight@107] speed: 32 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.604 DEBUG [6668] [passTrafficLight@108] hourToLight 0.09375 period: 33.75
+2020-03-04 16:09:30.604 DEBUG [6668] [passTrafficLight@109] fmod: 1.75
+2020-03-04 16:09:30.604 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.604 DEBUG [6668] [passTrafficLight@107] speed: 31 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.604 DEBUG [6668] [passTrafficLight@108] hourToLight 0.00967742 period: 3.48387
+2020-03-04 16:09:30.604 DEBUG [6668] [passTrafficLight@109] fmod: 1.48387
+2020-03-04 16:09:30.605 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.605 DEBUG [6668] [passTrafficLight@107] speed: 31 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.605 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0483871 period: 17.4194
+2020-03-04 16:09:30.605 DEBUG [6668] [passTrafficLight@109] fmod: 1.41935
+2020-03-04 16:09:30.605 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.605 DEBUG [6668] [passTrafficLight@107] speed: 31 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.606 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0967742 period: 34.8387
+2020-03-04 16:09:30.606 DEBUG [6668] [passTrafficLight@109] fmod: 0.83871
+2020-03-04 16:09:30.606 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.606 DEBUG [6668] [passTrafficLight@107] speed: 30 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.606 DEBUG [6668] [passTrafficLight@108] hourToLight 0.01 period: 3.6
+2020-03-04 16:09:30.607 DEBUG [6668] [passTrafficLight@109] fmod: 1.6
+2020-03-04 16:09:30.607 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.608 DEBUG [6668] [passTrafficLight@107] speed: 30 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.608 DEBUG [6668] [passTrafficLight@108] hourToLight 0.05 period: 18
+2020-03-04 16:09:30.608 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.608 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.609 DEBUG [6668] [passTrafficLight@107] speed: 30 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.609 DEBUG [6668] [passTrafficLight@108] hourToLight 0.1 period: 36
+2020-03-04 16:09:30.609 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.609 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.609 DEBUG [6668] [passTrafficLight@107] speed: 29 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.610 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0103448 period: 3.72414
+2020-03-04 16:09:30.610 DEBUG [6668] [passTrafficLight@109] fmod: 1.72414
+2020-03-04 16:09:30.610 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.610 DEBUG [6668] [passTrafficLight@107] speed: 29 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.610 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0517241 period: 18.6207
+2020-03-04 16:09:30.610 DEBUG [6668] [passTrafficLight@109] fmod: 0.62069
+2020-03-04 16:09:30.611 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.611 DEBUG [6668] [passTrafficLight@107] speed: 29 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.611 DEBUG [6668] [passTrafficLight@108] hourToLight 0.103448 period: 37.2414
+2020-03-04 16:09:30.611 DEBUG [6668] [passTrafficLight@109] fmod: 1.24138
+2020-03-04 16:09:30.611 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.612 DEBUG [6668] [passTrafficLight@107] speed: 28 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.612 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0107143 period: 3.85714
+2020-03-04 16:09:30.612 DEBUG [6668] [passTrafficLight@109] fmod: 1.85714
+2020-03-04 16:09:30.612 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.612 DEBUG [6668] [passTrafficLight@107] speed: 28 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.612 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0535714 period: 19.2857
+2020-03-04 16:09:30.613 DEBUG [6668] [passTrafficLight@109] fmod: 1.28571
+2020-03-04 16:09:30.613 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.613 DEBUG [6668] [passTrafficLight@107] speed: 28 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.613 DEBUG [6668] [passTrafficLight@108] hourToLight 0.107143 period: 38.5714
+2020-03-04 16:09:30.613 DEBUG [6668] [passTrafficLight@109] fmod: 0.571429
+2020-03-04 16:09:30.613 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.614 DEBUG [6668] [passTrafficLight@107] speed: 27 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.614 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0111111 period: 4
+2020-03-04 16:09:30.614 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.615 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.615 DEBUG [6668] [passTrafficLight@107] speed: 27 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.615 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0555556 period: 20
+2020-03-04 16:09:30.616 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.616 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.616 DEBUG [6668] [passTrafficLight@107] speed: 27 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.616 DEBUG [6668] [passTrafficLight@108] hourToLight 0.111111 period: 40
+2020-03-04 16:09:30.616 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.617 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.617 DEBUG [6668] [passTrafficLight@107] speed: 26 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.617 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0115385 period: 4.15385
+2020-03-04 16:09:30.617 DEBUG [6668] [passTrafficLight@109] fmod: 0.153846
+2020-03-04 16:09:30.617 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.617 DEBUG [6668] [passTrafficLight@107] speed: 26 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.618 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0576923 period: 20.7692
+2020-03-04 16:09:30.618 DEBUG [6668] [passTrafficLight@109] fmod: 0.769231
+2020-03-04 16:09:30.618 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.618 DEBUG [6668] [passTrafficLight@107] speed: 26 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.618 DEBUG [6668] [passTrafficLight@108] hourToLight 0.115385 period: 41.5385
+2020-03-04 16:09:30.618 DEBUG [6668] [passTrafficLight@109] fmod: 1.53846
+2020-03-04 16:09:30.619 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.619 DEBUG [6668] [passTrafficLight@107] speed: 25 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.619 DEBUG [6668] [passTrafficLight@108] hourToLight 0.012 period: 4.32
+2020-03-04 16:09:30.619 DEBUG [6668] [passTrafficLight@109] fmod: 0.32
+2020-03-04 16:09:30.619 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.619 DEBUG [6668] [passTrafficLight@107] speed: 25 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.620 DEBUG [6668] [passTrafficLight@108] hourToLight 0.06 period: 21.6
+2020-03-04 16:09:30.620 DEBUG [6668] [passTrafficLight@109] fmod: 1.6
+2020-03-04 16:09:30.620 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.620 DEBUG [6668] [passTrafficLight@107] speed: 25 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.620 DEBUG [6668] [passTrafficLight@108] hourToLight 0.12 period: 43.2
+2020-03-04 16:09:30.621 DEBUG [6668] [passTrafficLight@109] fmod: 1.2
+2020-03-04 16:09:30.621 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.621 DEBUG [6668] [passTrafficLight@107] speed: 24 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.621 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0125 period: 4.5
+2020-03-04 16:09:30.621 DEBUG [6668] [passTrafficLight@109] fmod: 0.5
+2020-03-04 16:09:30.621 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.622 DEBUG [6668] [passTrafficLight@107] speed: 24 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.622 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0625 period: 22.5
+2020-03-04 16:09:30.622 DEBUG [6668] [passTrafficLight@109] fmod: 0.5
+2020-03-04 16:09:30.622 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.622 DEBUG [6668] [passTrafficLight@107] speed: 24 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.622 DEBUG [6668] [passTrafficLight@108] hourToLight 0.125 period: 45
+2020-03-04 16:09:30.623 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.623 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.623 DEBUG [6668] [passTrafficLight@107] speed: 23 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.623 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0130435 period: 4.69565
+2020-03-04 16:09:30.623 DEBUG [6668] [passTrafficLight@109] fmod: 0.695652
+2020-03-04 16:09:30.623 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.624 DEBUG [6668] [passTrafficLight@107] speed: 23 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.624 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0652174 period: 23.4783
+2020-03-04 16:09:30.624 DEBUG [6668] [passTrafficLight@109] fmod: 1.47826
+2020-03-04 16:09:30.624 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.624 DEBUG [6668] [passTrafficLight@107] speed: 23 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.624 DEBUG [6668] [passTrafficLight@108] hourToLight 0.130435 period: 46.9565
+2020-03-04 16:09:30.625 DEBUG [6668] [passTrafficLight@109] fmod: 0.956522
+2020-03-04 16:09:30.625 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.625 DEBUG [6668] [passTrafficLight@107] speed: 22 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.625 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0136364 period: 4.90909
+2020-03-04 16:09:30.625 DEBUG [6668] [passTrafficLight@109] fmod: 0.909091
+2020-03-04 16:09:30.626 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.626 DEBUG [6668] [passTrafficLight@107] speed: 22 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.626 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0681818 period: 24.5455
+2020-03-04 16:09:30.626 DEBUG [6668] [passTrafficLight@109] fmod: 0.545455
+2020-03-04 16:09:30.626 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.626 DEBUG [6668] [passTrafficLight@107] speed: 22 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.627 DEBUG [6668] [passTrafficLight@108] hourToLight 0.136364 period: 49.0909
+2020-03-04 16:09:30.627 DEBUG [6668] [passTrafficLight@109] fmod: 1.09091
+2020-03-04 16:09:30.627 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.627 DEBUG [6668] [passTrafficLight@107] speed: 21 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.627 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0142857 period: 5.14286
+2020-03-04 16:09:30.627 DEBUG [6668] [passTrafficLight@109] fmod: 1.14286
+2020-03-04 16:09:30.628 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.628 DEBUG [6668] [passTrafficLight@107] speed: 21 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.628 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0714286 period: 25.7143
+2020-03-04 16:09:30.628 DEBUG [6668] [passTrafficLight@109] fmod: 1.71429
+2020-03-04 16:09:30.628 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.628 DEBUG [6668] [passTrafficLight@107] speed: 21 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.629 DEBUG [6668] [passTrafficLight@108] hourToLight 0.142857 period: 51.4286
+2020-03-04 16:09:30.629 DEBUG [6668] [passTrafficLight@109] fmod: 1.42857
+2020-03-04 16:09:30.629 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.629 DEBUG [6668] [passTrafficLight@107] speed: 20 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.629 DEBUG [6668] [passTrafficLight@108] hourToLight 0.015 period: 5.4
+2020-03-04 16:09:30.629 DEBUG [6668] [passTrafficLight@109] fmod: 1.4
+2020-03-04 16:09:30.630 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.630 DEBUG [6668] [passTrafficLight@107] speed: 20 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.630 DEBUG [6668] [passTrafficLight@108] hourToLight 0.075 period: 27
+2020-03-04 16:09:30.630 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.630 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.630 DEBUG [6668] [passTrafficLight@107] speed: 20 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.631 DEBUG [6668] [passTrafficLight@108] hourToLight 0.15 period: 54
+2020-03-04 16:09:30.631 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.631 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.631 DEBUG [6668] [passTrafficLight@107] speed: 19 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.631 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0157895 period: 5.68421
+2020-03-04 16:09:30.632 DEBUG [6668] [passTrafficLight@109] fmod: 1.68421
+2020-03-04 16:09:30.632 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.632 DEBUG [6668] [passTrafficLight@107] speed: 19 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.633 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0789474 period: 28.4211
+2020-03-04 16:09:30.633 DEBUG [6668] [passTrafficLight@109] fmod: 0.421053
+2020-03-04 16:09:30.633 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.633 DEBUG [6668] [passTrafficLight@107] speed: 19 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.634 DEBUG [6668] [passTrafficLight@108] hourToLight 0.157895 period: 56.8421
+2020-03-04 16:09:30.634 DEBUG [6668] [passTrafficLight@109] fmod: 0.842105
+2020-03-04 16:09:30.634 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.634 DEBUG [6668] [passTrafficLight@107] speed: 18 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.634 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0166667 period: 6
+2020-03-04 16:09:30.635 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.635 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.635 DEBUG [6668] [passTrafficLight@107] speed: 18 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.635 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0833333 period: 30
+2020-03-04 16:09:30.635 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.635 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.636 DEBUG [6668] [passTrafficLight@107] speed: 18 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.636 DEBUG [6668] [passTrafficLight@108] hourToLight 0.166667 period: 60
+2020-03-04 16:09:30.636 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.636 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.636 DEBUG [6668] [passTrafficLight@107] speed: 17 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.636 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0176471 period: 6.35294
+2020-03-04 16:09:30.637 DEBUG [6668] [passTrafficLight@109] fmod: 0.352941
+2020-03-04 16:09:30.637 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.637 DEBUG [6668] [passTrafficLight@107] speed: 17 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.637 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0882353 period: 31.7647
+2020-03-04 16:09:30.637 DEBUG [6668] [passTrafficLight@109] fmod: 1.76471
+2020-03-04 16:09:30.637 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.638 DEBUG [6668] [passTrafficLight@107] speed: 17 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.638 DEBUG [6668] [passTrafficLight@108] hourToLight 0.176471 period: 63.5294
+2020-03-04 16:09:30.638 DEBUG [6668] [passTrafficLight@109] fmod: 1.52941
+2020-03-04 16:09:30.638 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.638 DEBUG [6668] [passTrafficLight@107] speed: 16 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.638 DEBUG [6668] [passTrafficLight@108] hourToLight 0.01875 period: 6.75
+2020-03-04 16:09:30.639 DEBUG [6668] [passTrafficLight@109] fmod: 0.75
+2020-03-04 16:09:30.639 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.639 DEBUG [6668] [passTrafficLight@107] speed: 16 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.639 DEBUG [6668] [passTrafficLight@108] hourToLight 0.09375 period: 33.75
+2020-03-04 16:09:30.639 DEBUG [6668] [passTrafficLight@109] fmod: 1.75
+2020-03-04 16:09:30.639 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.640 DEBUG [6668] [passTrafficLight@107] speed: 16 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.640 DEBUG [6668] [passTrafficLight@108] hourToLight 0.1875 period: 67.5
+2020-03-04 16:09:30.640 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.640 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.640 DEBUG [6668] [passTrafficLight@107] speed: 15 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.640 DEBUG [6668] [passTrafficLight@108] hourToLight 0.02 period: 7.2
+2020-03-04 16:09:30.641 DEBUG [6668] [passTrafficLight@109] fmod: 1.2
+2020-03-04 16:09:30.641 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.641 DEBUG [6668] [passTrafficLight@107] speed: 15 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.641 DEBUG [6668] [passTrafficLight@108] hourToLight 0.1 period: 36
+2020-03-04 16:09:30.641 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.641 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.642 DEBUG [6668] [passTrafficLight@107] speed: 15 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.642 DEBUG [6668] [passTrafficLight@108] hourToLight 0.2 period: 72
+2020-03-04 16:09:30.642 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.642 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.642 DEBUG [6668] [passTrafficLight@107] speed: 14 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.642 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0214286 period: 7.71429
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@109] fmod: 1.71429
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@107] speed: 14 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@108] hourToLight 0.107143 period: 38.5714
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@109] fmod: 0.571429
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.643 DEBUG [6668] [passTrafficLight@107] speed: 14 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.644 DEBUG [6668] [passTrafficLight@108] hourToLight 0.214286 period: 77.1429
+2020-03-04 16:09:30.644 DEBUG [6668] [passTrafficLight@109] fmod: 1.14286
+2020-03-04 16:09:30.644 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.644 DEBUG [6668] [passTrafficLight@107] speed: 13 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.644 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0230769 period: 8.30769
+2020-03-04 16:09:30.644 DEBUG [6668] [passTrafficLight@109] fmod: 0.307692
+2020-03-04 16:09:30.645 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.645 DEBUG [6668] [passTrafficLight@107] speed: 13 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.645 DEBUG [6668] [passTrafficLight@108] hourToLight 0.115385 period: 41.5385
+2020-03-04 16:09:30.645 DEBUG [6668] [passTrafficLight@109] fmod: 1.53846
+2020-03-04 16:09:30.645 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.645 DEBUG [6668] [passTrafficLight@107] speed: 13 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.646 DEBUG [6668] [passTrafficLight@108] hourToLight 0.230769 period: 83.0769
+2020-03-04 16:09:30.646 DEBUG [6668] [passTrafficLight@109] fmod: 1.07692
+2020-03-04 16:09:30.646 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.646 DEBUG [6668] [passTrafficLight@107] speed: 12 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.646 DEBUG [6668] [passTrafficLight@108] hourToLight 0.025 period: 9
+2020-03-04 16:09:30.646 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.647 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.647 DEBUG [6668] [passTrafficLight@107] speed: 12 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.647 DEBUG [6668] [passTrafficLight@108] hourToLight 0.125 period: 45
+2020-03-04 16:09:30.647 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.647 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.647 DEBUG [6668] [passTrafficLight@107] speed: 12 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.648 DEBUG [6668] [passTrafficLight@108] hourToLight 0.25 period: 90
+2020-03-04 16:09:30.648 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.648 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.648 DEBUG [6668] [passTrafficLight@107] speed: 11 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.648 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0272727 period: 9.81818
+2020-03-04 16:09:30.648 DEBUG [6668] [passTrafficLight@109] fmod: 1.81818
+2020-03-04 16:09:30.649 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.649 DEBUG [6668] [passTrafficLight@107] speed: 11 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.649 DEBUG [6668] [passTrafficLight@108] hourToLight 0.136364 period: 49.0909
+2020-03-04 16:09:30.649 DEBUG [6668] [passTrafficLight@109] fmod: 1.09091
+2020-03-04 16:09:30.649 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.649 DEBUG [6668] [passTrafficLight@107] speed: 11 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.650 DEBUG [6668] [passTrafficLight@108] hourToLight 0.272727 period: 98.1818
+2020-03-04 16:09:30.650 DEBUG [6668] [passTrafficLight@109] fmod: 0.181818
+2020-03-04 16:09:30.650 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.650 DEBUG [6668] [passTrafficLight@107] speed: 10 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.650 DEBUG [6668] [passTrafficLight@108] hourToLight 0.03 period: 10.8
+2020-03-04 16:09:30.651 DEBUG [6668] [passTrafficLight@109] fmod: 0.8
+2020-03-04 16:09:30.651 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.651 DEBUG [6668] [passTrafficLight@107] speed: 10 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.651 DEBUG [6668] [passTrafficLight@108] hourToLight 0.15 period: 54
+2020-03-04 16:09:30.651 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.651 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.652 DEBUG [6668] [passTrafficLight@107] speed: 10 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.652 DEBUG [6668] [passTrafficLight@108] hourToLight 0.3 period: 108
+2020-03-04 16:09:30.652 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.652 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.652 DEBUG [6668] [passTrafficLight@107] speed: 9 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.652 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0333333 period: 12
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@107] speed: 9 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@108] hourToLight 0.166667 period: 60
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.653 DEBUG [6668] [passTrafficLight@107] speed: 9 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.654 DEBUG [6668] [passTrafficLight@108] hourToLight 0.333333 period: 120
+2020-03-04 16:09:30.654 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.654 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.654 DEBUG [6668] [passTrafficLight@107] speed: 8 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.654 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0375 period: 13.5
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@107] speed: 8 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@108] hourToLight 0.1875 period: 67.5
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@109] fmod: 1.5
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.655 DEBUG [6668] [passTrafficLight@107] speed: 8 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.656 DEBUG [6668] [passTrafficLight@108] hourToLight 0.375 period: 135
+2020-03-04 16:09:30.656 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.656 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.656 DEBUG [6668] [passTrafficLight@107] speed: 7 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.656 DEBUG [6668] [passTrafficLight@108] hourToLight 0.0428571 period: 15.4286
+2020-03-04 16:09:30.657 DEBUG [6668] [passTrafficLight@109] fmod: 1.42857
+2020-03-04 16:09:30.657 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.657 DEBUG [6668] [passTrafficLight@107] speed: 7 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.657 DEBUG [6668] [passTrafficLight@108] hourToLight 0.214286 period: 77.1429
+2020-03-04 16:09:30.657 DEBUG [6668] [passTrafficLight@109] fmod: 1.14286
+2020-03-04 16:09:30.657 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.658 DEBUG [6668] [passTrafficLight@107] speed: 7 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.658 DEBUG [6668] [passTrafficLight@108] hourToLight 0.428571 period: 154.286
+2020-03-04 16:09:30.658 DEBUG [6668] [passTrafficLight@109] fmod: 0.285714
+2020-03-04 16:09:30.658 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.658 DEBUG [6668] [passTrafficLight@107] speed: 6 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.658 DEBUG [6668] [passTrafficLight@108] hourToLight 0.05 period: 18
+2020-03-04 16:09:30.659 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.659 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.659 DEBUG [6668] [passTrafficLight@107] speed: 6 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.659 DEBUG [6668] [passTrafficLight@108] hourToLight 0.25 period: 90
+2020-03-04 16:09:30.659 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.659 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.660 DEBUG [6668] [passTrafficLight@107] speed: 6 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.660 DEBUG [6668] [passTrafficLight@108] hourToLight 0.5 period: 180
+2020-03-04 16:09:30.660 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.660 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.660 DEBUG [6668] [passTrafficLight@107] speed: 5 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.660 DEBUG [6668] [passTrafficLight@108] hourToLight 0.06 period: 21.6
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@109] fmod: 1.6
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@107] speed: 5 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@108] hourToLight 0.3 period: 108
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.661 DEBUG [6668] [passTrafficLight@107] speed: 5 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.662 DEBUG [6668] [passTrafficLight@108] hourToLight 0.6 period: 216
+2020-03-04 16:09:30.662 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.662 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.662 DEBUG [6668] [passTrafficLight@107] speed: 4 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.662 DEBUG [6668] [passTrafficLight@108] hourToLight 0.075 period: 27
+2020-03-04 16:09:30.662 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.663 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.663 DEBUG [6668] [passTrafficLight@107] speed: 4 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.663 DEBUG [6668] [passTrafficLight@108] hourToLight 0.375 period: 135
+2020-03-04 16:09:30.663 DEBUG [6668] [passTrafficLight@109] fmod: 1
+2020-03-04 16:09:30.663 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.663 DEBUG [6668] [passTrafficLight@107] speed: 4 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.664 DEBUG [6668] [passTrafficLight@108] hourToLight 0.75 period: 270
+2020-03-04 16:09:30.664 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.664 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.664 DEBUG [6668] [passTrafficLight@107] speed: 3 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.664 DEBUG [6668] [passTrafficLight@108] hourToLight 0.1 period: 36
+2020-03-04 16:09:30.664 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.665 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.665 DEBUG [6668] [passTrafficLight@107] speed: 3 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.665 DEBUG [6668] [passTrafficLight@108] hourToLight 0.5 period: 180
+2020-03-04 16:09:30.665 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.665 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.665 DEBUG [6668] [passTrafficLight@107] speed: 3 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.666 DEBUG [6668] [passTrafficLight@108] hourToLight 1 period: 360
+2020-03-04 16:09:30.666 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.666 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.666 DEBUG [6668] [passTrafficLight@107] speed: 2 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.666 DEBUG [6668] [passTrafficLight@108] hourToLight 0.15 period: 54
+2020-03-04 16:09:30.666 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.667 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.667 DEBUG [6668] [passTrafficLight@107] speed: 2 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.667 DEBUG [6668] [passTrafficLight@108] hourToLight 0.75 period: 270
+2020-03-04 16:09:30.667 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.667 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.667 DEBUG [6668] [passTrafficLight@107] speed: 2 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.668 DEBUG [6668] [passTrafficLight@108] hourToLight 1.5 period: 540
+2020-03-04 16:09:30.668 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.668 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.668 DEBUG [6668] [passTrafficLight@107] speed: 1 distance: 0.3 duration: 0.00277778
+2020-03-04 16:09:30.668 DEBUG [6668] [passTrafficLight@108] hourToLight 0.3 period: 108
+2020-03-04 16:09:30.668 DEBUG [6668] [passTrafficLight@109] fmod: 2
+2020-03-04 16:09:30.669 DEBUG [6668] [passTrafficLight@110] returnValue: 0
+2020-03-04 16:09:30.669 DEBUG [6668] [passTrafficLight@107] speed: 1 distance: 1.5 duration: 0.00277778
+2020-03-04 16:09:30.669 DEBUG [6668] [passTrafficLight@108] hourToLight 1.5 period: 540
+2020-03-04 16:09:30.669 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.669 DEBUG [6668] [passTrafficLight@110] returnValue: 1
+2020-03-04 16:09:30.669 DEBUG [6668] [passTrafficLight@107] speed: 1 distance: 3 duration: 0.00277778
+2020-03-04 16:09:30.670 DEBUG [6668] [passTrafficLight@108] hourToLight 3 period: 1080
+2020-03-04 16:09:30.670 DEBUG [6668] [passTrafficLight@109] fmod: 0
+2020-03-04 16:09:30.670 DEBUG [6668] [passTrafficLight@110] returnValue: 1
