@@ -614,12 +614,7 @@ public:
         Pod* opp_blocker = blocker(pods[(id + 2) % 4], pods[(id + 3) % 4]);
 
         float score = (my_runner->score() - opp_runner->score()) * 10000;
-
-        
-        
         score -= my_blocker->dist2(cps[opp_runner->ncpid]);
-
-
 
 
         //score -= my_blocker->diff_angle(opp_runner);
@@ -648,17 +643,13 @@ void play() {
                     first_col.t = col_time;
                 }
             }
-
            
             float col_time = pods[i]->collision_time(cps[pods[i]->ncpid]);
             if (col_time > -1 && col_time + t < 1.0 && (first_col.t == -1 || col_time < first_col.t)) {
                 first_col.a = pods[i];
                 first_col.b = cps[pods[i]->ncpid];
                 first_col.t = col_time;
-            }
-            
-            
-
+            }           
         }
 
         if (first_col.t == -1) {
@@ -736,30 +727,31 @@ int main() {
     SearchBot me;
     me.oppBots.push_back(&opp);
 
-    while (1) {
+    while (true) {
         r++;
 
         for (int i = 0; i < 4; ++i) {
             int x, y, vx, vy, angle, ncpid;
             cin >> x >> y >> vx >> vy >> angle >> ncpid;
-            if (r == 0 && i > 1 && angle > -1) is_p2 = true;
+            if (r == 0 && i > 1 && angle > -1)
+                is_p2 = true;
             pods[i]->update(x, y, vx, vy, angle, ncpid);
         }
 
         now = high_resolution_clock::now();
 
         float time_limit = r ? 0.142 : 0.98;
-        time_limit *= 0.3;
+        time_limit *= 0.4;
 
         // use this to test reflex bot behavior
         // me_reflex.move_as_main();
 
-        cerr << TIME << '\n';
+        //cerr << TIME << '\n';
 
         opp.solve(time_limit * 0.15);
         me.solve(time_limit, r > 0);
 
-        cerr << TIME << '\n';
+        //cerr << TIME << '\n';
 
         if (r > 0)
             cerr << "Avg iters: " << sols_ct / r << "; Avg sims: " << sols_ct * DEPTH / r << endl;
