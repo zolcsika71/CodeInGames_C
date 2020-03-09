@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <map>
 
 using namespace std;
 
@@ -14,6 +15,8 @@ struct GameData
     int countX;
     int countY;
 };
+
+
 
 GameData getData(vector_int& xMeasurement, vector_int& yMeasurement)
 {
@@ -40,6 +43,8 @@ GameData getData(vector_int& xMeasurement, vector_int& yMeasurement)
     return data;
 }
 
+
+
 void getPoints(vector_int& points, vector_int& measurements, int count, int size)
 {
     points.push_back(0);
@@ -48,11 +53,12 @@ void getPoints(vector_int& points, vector_int& measurements, int count, int size
         points.push_back(measurements[i]);
 
     points.push_back(size);
+
 }
 
 
-// TODO use map()
-void fillSections(vector_int& points, vector_int& sections)
+
+void fillSections(vector_int& points, vector_int& sections, bool sort = false)
 {
     for (int i = 1; i < points.size(); ++i)
     {
@@ -61,7 +67,13 @@ void fillSections(vector_int& points, vector_int& sections)
             int result{ points[i] - points[j] };
             sections.push_back(result);
         }          
-    }  
+    } 
+
+    if (sort)
+    {
+           std::sort(sections.begin(), sections.end(), greater<int>());
+    }
+        
 }
 
 void getSections(vector_int& xMeasurements, vector_int& yMeasurements, vector_int& xSections, vector_int& ySections, GameData data)
@@ -74,20 +86,29 @@ void getSections(vector_int& xMeasurements, vector_int& yMeasurements, vector_in
     getPoints(yPoints, yMeasurements, data.countY, data.height);      
     
     fillSections(xPoints, xSections);   
-    fillSections(yPoints, ySections);    
+    fillSections(yPoints, ySections, true);    
     
 }
+
 
 void solve(vector_int& xSections, vector_int& ySections)
 {
     int counter{ 0 };
-    
+
     for (int xSection : xSections)
     {
         for (int ySection : ySections)
-            if (xSection == ySection)
+        {
+            cerr << "x: " << xSection << " y: " << ySection << '\n';
+            
+            if (xSection > ySection)
+                break;
+            else if (xSection < ySection)
+                continue;
+            else
                 ++counter;
-
+        }
+            
     }
 
     cout << counter;
@@ -103,6 +124,9 @@ int main()
     
     vector_int xSections;
     vector_int ySections;
+
+    vector_int xCounter;
+    
 
     getSections(xMeasurements, yMeasurements, xSections, ySections, data);
 
