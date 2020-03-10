@@ -6,7 +6,10 @@
 
 using namespace std;
 
+constexpr bool test{ false };
+
 using vector_int = vector<int>;
+using map_int = map<int, int>;
 
 struct GameData
 {
@@ -15,8 +18,6 @@ struct GameData
     int countX;
     int countY;
 };
-
-
 
 GameData getData(vector_int& xMeasurement, vector_int& yMeasurement)
 {
@@ -43,8 +44,6 @@ GameData getData(vector_int& xMeasurement, vector_int& yMeasurement)
     return data;
 }
 
-
-
 void getPoints(vector_int& points, vector_int& measurements, int count, int size)
 {
     points.push_back(0);
@@ -56,9 +55,7 @@ void getPoints(vector_int& points, vector_int& measurements, int count, int size
 
 }
 
-
-
-void fillSections(vector_int& points, vector_int& sections, bool sort = false)
+void fillSections(vector_int& points, vector_int& sections)
 {
     for (int i = 1; i < points.size(); ++i)
     {
@@ -68,52 +65,65 @@ void fillSections(vector_int& points, vector_int& sections, bool sort = false)
             sections.push_back(result);
         }          
     } 
-
-    if (sort)
-    {
-           std::sort(sections.begin(), sections.end(), greater<int>());
-    }
-        
 }
 
-void getSections(vector_int& xMeasurements, vector_int& yMeasurements, vector_int& xSections, vector_int& ySections, GameData data)
+void getSections(vector_int& measurements, vector_int& sections, int count, int size)
 {
-    
-    vector_int xPoints;
-    getPoints(xPoints, xMeasurements, data.countX, data.width);
+    vector_int points;
 
-    vector_int yPoints; 
-    getPoints(yPoints, yMeasurements, data.countY, data.height);      
-    
-    fillSections(xPoints, xSections);   
-    fillSections(yPoints, ySections, true);    
-    
+    getPoints(points, measurements, count, size);
+
+    fillSections(points, sections);    
+
 }
 
-
-void solve(vector_int& xSections, vector_int& ySections)
+void getCounter(vector_int& section, map_int& counter)
 {
-    int counter{ 0 };
+    
+    int count{ 1 };
+    int size{ section.size() - 1 };
 
-    for (int xSection : xSections)
-    {
-        for (int ySection : ySections)
+    std::sort(section.begin(), section.end());
+    
+    for (int i = 0; i < size; ++i)
+    {     
+        if (section[i] == section[i + 1])        
+            ++count;        
+        else
         {
-            cerr << "x: " << xSection << " y: " << ySection << '\n';
-            
-            if (xSection > ySection)
-                break;
-            else if (xSection < ySection)
-                continue;
-            else
-                ++counter;
-        }
-            
-    }
+            counter.insert(pair<int, int>(section[i], count));
+            count = 1;
 
-    cout << counter;
+            if (i == size - 1)
+                counter.insert(pair<int, int>(section[i + 1], 1));
+
+        }
+    }
 }
 
+void testArray(vector_int& testArray)
+{
+    for (int section : testArray)
+        cerr << section << ' ';
+}
+
+void testMap(map_int& testMap)
+{    
+    map_int::iterator it;
+    
+    for (it = testMap.begin(); it != testMap.end(); ++it)
+        cerr << it->first << ": " << it->second << '\n';
+}
+
+void solve(vector_int& sections, map_int& counter)
+{
+    int count{ 0 };
+
+    for (int i = 0; i < sections.size(); ++i)
+        count += counter[sections[i]]; 
+
+    cout << count;
+}
 
 int main()
 {
@@ -123,14 +133,43 @@ int main()
     GameData data{ getData(xMeasurements, yMeasurements) };   
     
     vector_int xSections;
-    vector_int ySections;
+    vector_int ySections;  
+    
+    getSections(xMeasurements, xSections, data.countX, data.width);
 
-    vector_int xCounter;
+    map_int counter;
+
+    getCounter(xSections, counter);      
+        
+    getSections(yMeasurements, ySections, data.countY, data.height);    
+
+    
+    
+    if (test)
+    {                 
+        cerr << "x: " << '\n';
+
+        testArray(xSections);
+
+        cerr << '\n';
+        cerr << '\n';
+
+        cerr << "y: " << '\n';
+
+        testArray(ySections);
+
+        cerr << '\n';
+        cerr << '\n';
+
+
+        testMap(counter);
+
+        cerr << '\n';
+        cerr << '\n';
+    } 
     
 
-    getSections(xMeasurements, yMeasurements, xSections, ySections, data);
-
-    solve(xSections, ySections); 
+    solve(ySections, counter); 
     
     return 0;    
 }
