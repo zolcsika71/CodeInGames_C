@@ -7,6 +7,7 @@ using namespace std;
 using vector_string = vector<std::string>;
 
 bool test{ true }; 
+bool testInput{ true };
 
 string decToBinary(int n)
 {
@@ -24,9 +25,14 @@ string decToBinary(int n)
     }
 
     string binaries;
+
+    
     
     for (int j = i - 1; j >= 0; j--)
         binaries += to_string(binaryNum[j]);
+
+    
+        
 
     return binaries;
 }
@@ -34,10 +40,17 @@ string decToBinary(int n)
 string getBinaries(string& message)
 {
     
-    string binaries{};
+    string binaries;
     
-    for (string::size_type i = 0; i <= message.size(); ++i)    
-        binaries += decToBinary((int)message[i]);     
+    for (string::size_type i = 0; i < message.size(); ++i)
+    {
+        string bin{ decToBinary((int)message[i]) };
+        cerr << "binary: " << bin.length() << '\n';
+        if (bin.length() < 7)
+            binaries += '0';
+        binaries += bin;
+    }
+        
        
     return binaries;
 }
@@ -50,11 +63,11 @@ void sliceString(string& binaries, vector_string& slices)
     
     for (string::size_type i = 0; i < binaries.size() - 1; ++i)
     {      
-         if (binaries[i] == binaries[i + 1])
-         {                    
-            if (count == 1)
-                index = i;
-            
+        if (count == 1)
+            index = i;
+        
+        if (binaries[i] == binaries[i + 1])
+         {                 
             ++count;
 
             if(i == binaries.size() - 2)
@@ -62,13 +75,13 @@ void sliceString(string& binaries, vector_string& slices)
             
         }
         else
-        {           
-           slices.push_back(binaries.substr(index, count));                            
+        {     
+            slices.push_back(binaries.substr(index, count));                           
             
             count = 1;        
 
             if (i == binaries.size() - 2)
-                slices.push_back(binaries.substr(index, count));
+                slices.push_back(binaries.substr(index + 1, count));
             
         }
 
@@ -112,8 +125,8 @@ int main()
 {
     string MESSAGE;  
    
-    if (test)    
-        MESSAGE = 'a';
+    if (testInput)    
+        MESSAGE = "'Chuck Norris' keyboard has 2 keys: 0 and white space.";
     else
         getline(cin, MESSAGE);
 
