@@ -12,23 +12,19 @@ string decToBinary(int n)
 {
 
     int counter{ 0 };
-
-    // array to store binary number 
+    
     int binaryNum[32];
-
-    // counter for binary array 
+    
     int i = 0; 
     while (n > 0) {
-
-        // storing remainder in binary array 
+        
         binaryNum[i] = n % 2;
         n = n / 2;
         i++;
     }
 
     string binaries;
-
-    // printing binary array in reverse order 
+    
     for (int j = i - 1; j >= 0; j--)
         binaries += to_string(binaryNum[j]);
 
@@ -117,7 +113,7 @@ int main()
     string MESSAGE;  
    
     if (test)    
-        MESSAGE = '%';
+        MESSAGE = 'a';
     else
         getline(cin, MESSAGE);
 
