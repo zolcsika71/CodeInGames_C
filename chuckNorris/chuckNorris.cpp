@@ -24,14 +24,10 @@ string decToBinary(int n)
         i++;
     }
 
-    string binaries;
-
-    
+    string binaries;   
     
     for (int j = i - 1; j >= 0; j--)
-        binaries += to_string(binaryNum[j]);
-
-    
+        binaries += to_string(binaryNum[j]);   
         
 
     return binaries;
@@ -45,7 +41,10 @@ string getBinaries(string& message)
     for (string::size_type i = 0; i < message.size(); ++i)
     {
         string bin{ decToBinary((int)message[i]) };
-        cerr << "binary: " << bin.length() << '\n';
+
+        if(test)
+            cerr << "binary: " << bin.length() << '\n';
+
         if (bin.length() < 7)
             binaries += '0';
         binaries += bin;
