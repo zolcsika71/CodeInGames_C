@@ -42,8 +42,12 @@ string getBinaries(string& message)
     {
         string bin{ decToBinary((int)message[i]) };
 
-        if(test)
-            cerr << "binary: " << bin.length() << '\n';
+        if (test)
+        {
+            //cerr << "binary: " << bin.length() << '\n';
+            cerr << message[i] << " : " << (int)message[i] << '\n';
+        }
+            
 
         if (bin.length() < 7)
             binaries += '0';
@@ -125,7 +129,7 @@ int main()
     string MESSAGE;  
    
     if (testInput)    
-        MESSAGE = "'Chuck Norris' keyboard has 2 keys: 0 and white space.";
+        MESSAGE = "Chuck Norris' keyboard has 2 keys: 0 and white space.";
     else
         getline(cin, MESSAGE);
 
@@ -133,8 +137,8 @@ int main()
 
     if (test)
     {
-        cerr << binaries << '\n';
-        cerr << '\n';
+        //cerr << binaries << '\n';
+        //cerr << '\n';
     }
        
 
@@ -144,8 +148,8 @@ int main()
 
     if (test)
     {
-        testArray(slices);
-        cerr << '\n';
+        //testArray(slices);
+        //cerr << '\n';
     }
     
 
